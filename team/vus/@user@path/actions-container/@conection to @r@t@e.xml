@@ -1,0 +1,22 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Conection to RTE" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="09274a57-3fe3-4d49-806c-a663de950aad" weightsEnabled="false">
+    <weighted-embedded-action uid="ef4e4cb1-9fa0-49f8-ac6b-9982ccb59a1a"/>
+    <weighted-embedded-action uid="074badfc-e3e6-4322-b8df-88f15ac0f8a5"/>
+    <weighted-embedded-action uid="c4d27591-1901-466d-85ad-87ffcd929f55"/>
+    <weighted-embedded-action uid="ff72253a-2435-4fc9-bd11-eaf50f5313ac"/>
+    <weighted-embedded-action uid="cfee6f62-a312-4c6f-a4ab-d791e88da9f9"/>
+    <weighted-embedded-action uid="e7a66498-4f35-4610-ad5e-b190729d0e5b"/>
+    <weighted-embedded-action uid="bb315afd-4f0f-4ff9-9f17-2f1776195294"/>
+    <weighted-embedded-action uid="a79ead91-4548-4038-9716-7036e99581c1"/>
+    <weighted-embedded-action uid="ab146c1f-2ee9-4165-a492-c5784a1a254a"/>
+    <weighted-embedded-action uid="4d580763-71aa-4b5d-8e95-fb0b521c563a"/>
+    <weighted-embedded-action uid="024b0de1-9495-4171-982a-c7885eb73047"/>
+    <weighted-embedded-action uid="b373287e-7efe-45d4-ba95-4eb93dfd1979"/>
+    <weighted-embedded-action uid="0030a3ba-4f6a-4712-9867-1639c8156aba"/>
+    <weighted-embedded-action uid="f5d50fe2-ac4a-4e1c-8f5b-551f81753be9"/>
+    <weighted-embedded-action uid="bc373285-f601-4a6c-a98e-9f8f4a4fb072"/>
+    <weighted-embedded-action uid="b2487ea6-1cd5-4bdc-901d-eee7245f6041"/>
+    <weighted-embedded-action uid="4e70c878-e48c-4d3f-8e6c-57f7bf8a2222"/>
+</basic-logical-action-container>

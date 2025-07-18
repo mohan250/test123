@@ -1,0 +1,31 @@
+<custom-action actionType="RTERead" isHit="true"
+    name="Read Process is finished at" uid="bc5ecbbf-f131-43e6-a333-4ced921b330c">
+    <description>Read the contents of the terminal.
+
+Possible parameters are:
+- Wait (optional): Specify what to wait for in the terminal to be ready to receive the next action. Possible syntaxes are: 
+	- CursorPosition(1x2) to wait until the cursor is at the first column and second row 
+	- CursorPosition(1x2 after: "text") to wait until the cursor is at the first column, second row and after the pattern 'text' 
+	- CursorPosition(1x2 after: "text", onWritableField) to wait until the cursor is at the first column, second row, after the pattern 'text' and on a 
+	writable field (only applicable to TN3270 terminal) 
+	- Text("text") to wait until the pattern 'text' is present on the screen 
+	- Text(1x2 "text") to wait until the pattern 'text' is present on the screen at the first column and second line 
+	- Text(1x2 3x4 "text") to wait until the pattern 'text' is present on the screen between the first column second line and the third column forth line 
+	- RegExp("Hello.*") to wait until the regular expression 'Hello.*' have a match on the screen 
+	- RegExp(1x2 "Hello.*") to wait until the regular expression 'Hello.*' have a match on the screen at the first column and second row 
+	- CursorVisible to wait until the cursor is visible 
+	- CursorHidden to wait until the cursor is hidden 
+	- KeyboardLocked to wait until the keyboard is locked 
+	- KeyboardUnlocked to wait until the keyboard is unlocked 
+	- Connected to wait until the terminal is connected 
+	- Disconnected to wait until the terminal is disconnected 
+	- ScreenRefresh to wait until the first screen refresh 
+	- Time(1000) to wait for 1000 milliseconds.
+- WaitTimeout (optional): Timeout to wait for in milliseconds, based on the Wait parameter. Default value is "10000".</description>
+    <custom-action-parameter name="Wait" type="TEXT" value="RegExp(&quot;Process is finished at \d\d:\d\d:\d\d with result: (UNSTABLE|SUCCESS|FAILURE)&quot;)"/>
+    <custom-action-parameter name="WaitTimeout" type="TEXT" value="10000"/>
+    <responsePageFileDescription>team/vus/@long-running task/%resources%/recorded-responses/res_bc5ecbbf-f131-43e6-a333-4ced921b330c</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@long-running task/%resources%/recorded-requests/req_bc5ecbbf-f131-43e6-a333-4ced921b330c</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@long-running task/%resources%/recorded-requests/req_raw_5db01bd0-1f47-4d1e-8afb-605ae1c6196f.1.0.0.0</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@long-running task/%resources%/recorded-responses/res_raw_5db01bd0-1f47-4d1e-8afb-605ae1c6196f.1.0.0.0</recordedResponseRawFileDescription>
+</custom-action>

@@ -1,0 +1,5 @@
+<variable-list name="TN3270_MVS_Sysgen_creds" offset="1" order="3" policy="4" range="1" uid="acf0a772-f5aa-4755-86b6-2fafba8a4bd7" whenOutOfValues="CYCLE_VALUES">
+<column name="password" number="1"/>
+<column name="username" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAADdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAB0lCTVVTRVJ0AARTWVMxdXEAfgACAAAAAnQAB01WU0NFMDF0AAZDVUw4VFJ1cQB+AAIAAAACdAAHTVZTQ0UwMnQABlBBU1M0VQ==]]></values>
+</variable-list>

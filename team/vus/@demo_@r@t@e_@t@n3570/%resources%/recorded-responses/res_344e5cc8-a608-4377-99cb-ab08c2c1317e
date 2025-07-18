@@ -1,0 +1,24 @@
+﻿ --------------------------  REVIEW - ENTRY PANEL  -----------------------------
+ Command ===>                                                                   
+                                                                                
+                                                                                
+ ISPF Library:                                                                  
+                                                                                
+    Project  . . A                                                              
+    Group  . . . B                                                              
+    Type . . . . C                                                              
+    Member . . .                 (Blank for member selection list)              
+                                                                                
+                                                                                
+ Other partitioned or sequential dataset:                                       
+                                                                                
+    Name  . . . . . . .                                                         
+    Volume Serial . . .           (If not cataloged)                            
+                                                                                
+ Data set password  . .          (If password protected)                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

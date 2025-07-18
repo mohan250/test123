@@ -1,0 +1,51 @@
+<custom-action actionType="RTEConnect" isHit="true" name="Connect" uid="682eb85e-6f39-4cda-bc9f-f1059aef8972">
+    <description>Connect to a terminal server
+
+Possible parameters are:
+- Transport layer (required): Transport layer to use.
+- Port (required): Port number to connect to. Default value is "23".
+- Hostname (required): Hostname or IP address of the remote terminal.
+- Use extended (optional): Use extended mode.
+- Model (required): Model of the terminal.
+- Timeout (ms) (required): Timeout. Default value is "1000".
+- Terminal family (required): Terminal family.
+- Wait (optional): Specify what to wait for in the terminal to be ready to receive the next action. Possible syntaxes are: 
+	- CursorPosition(1x2) to wait until the cursor is at the first column and second row 
+	- CursorPosition(1x2 after: "text") to wait until the cursor is at the first column, second row and after the pattern 'text' 
+	- CursorPosition(1x2 after: "text", onWritableField) to wait until the cursor is at the first column, second row, after the pattern 'text' and on a 
+	writable field (only applicable to TN3270 terminal) 
+	- Text("text") to wait until the pattern 'text' is present on the screen 
+	- Text(1x2 "text") to wait until the pattern 'text' is present on the screen at the first column and second line 
+	- Text(1x2 3x4 "text") to wait until the pattern 'text' is present on the screen between the first column second line and the third column forth line 
+	- RegExp("Hello.*") to wait until the regular expression 'Hello.*' have a match on the screen 
+	- RegExp(1x2 "Hello.*") to wait until the regular expression 'Hello.*' have a match on the screen at the first column and second row 
+	- CursorVisible to wait until the cursor is visible 
+	- CursorHidden to wait until the cursor is hidden 
+	- KeyboardLocked to wait until the keyboard is locked 
+	- KeyboardUnlocked to wait until the keyboard is unlocked 
+	- Connected to wait until the terminal is connected 
+	- Disconnected to wait until the terminal is disconnected 
+	- ScreenRefresh to wait until the first screen refresh 
+	- Time(1000) to wait for 1000 milliseconds.
+- WaitTimeout (optional): Timeout to wait for in milliseconds, based on the Wait parameter. Default value is "10000".
+- Charset (optional): Charset to use.
+- Username (optional): Username to use for the connection.
+- Password (optional): Password to use for the connection.
+- Private Key (optional): Private key used for the connection.</description>
+    <custom-action-parameter name="Transport layer" type="TEXT" value="Telnet"/>
+    <custom-action-parameter name="Private Key" type="TEXT" value=""/>
+    <custom-action-parameter name="Username" type="TEXT" value="user"/>
+    <custom-action-parameter name="Port" type="TEXT" value="23000"/>
+    <custom-action-parameter name="Hostname" type="TEXT" value="localhost"/>
+    <encrypted-custom-action-parameter name="Password" type="PASSWORD" value="x4U6gLqFQrLyPUAl2myQGBNuav9axoTEgyoN+9iitYCBpclsag868TTz2Ds2vh6e$3"/>
+    <custom-action-parameter name="Model" type="TEXT" value="VT420-7 (80 x 24)"/>
+    <custom-action-parameter name="Charset" type="TEXT" value="ISO-8859-1"/>
+    <custom-action-parameter name="Timeout (ms)" type="TEXT" value="0"/>
+    <custom-action-parameter name="Terminal family" type="TEXT" value="VT420"/>
+    <custom-action-parameter name="Wait" type="TEXT" value="CursorPosition(9x1 after: &quot;myShell>&quot;, onWritableField)"/>
+    <custom-action-parameter name="WaitTimeout" type="TEXT" value="10000"/>
+    <responsePageFileDescription>team/vus/@long-running task/%resources%/recorded-responses/res_c2eb190e-469f-4728-9aca-d01487d22d4d</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@long-running task/%resources%/recorded-requests/req_c2eb190e-469f-4728-9aca-d01487d22d4d</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@long-running task/%resources%/recorded-requests/req_raw_5ea56a71-51ca-46a4-b54b-9a9558b9aef5</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@long-running task/%resources%/recorded-responses/res_raw_5ea56a71-51ca-46a4-b54b-9a9558b9aef5.0.0.1.0.0</recordedResponseRawFileDescription>
+</custom-action>

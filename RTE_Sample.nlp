@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=RTE_Sample
+project.version=8.10
+project.original.version=8.10
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2024.3.0
+project.is-open-test-settings-after-upload=false
+project.id=cd4c675d-f7a8-4525-8862-84d81ae97cf9
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/mohan250/test123.git

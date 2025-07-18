@@ -1,0 +1,3 @@
+<variable-constant constantValue="22" name="VT420_port" order="1" policy="1" range="2" uid="35993134-dfc1-43d6-8765-b38adb32582f" whenOutOfValues="CYCLE_VALUES">
+<description>overwrite with environment variable nl_variable_VT420_port</description>
+</variable-constant>

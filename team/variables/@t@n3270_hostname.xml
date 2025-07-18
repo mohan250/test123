@@ -1,0 +1,3 @@
+<variable-constant constantValue="localhost" name="TN3270_hostname" order="1" policy="1" range="2" uid="9f3adeba-9595-468d-86db-3de2e33e06bd" whenOutOfValues="CYCLE_VALUES">
+<description>overwrite with environment variable nl_variable_TN3270_hostname</description>
+</variable-constant>

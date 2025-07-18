@@ -1,0 +1,12 @@
+﻿Transport layer: SSH, 
+Private Key: , 
+Username: user, 
+Port: 22, 
+Hostname: localhost, 
+Password: *****, 
+Model: VT420-7 (80 x 24), 
+Charset: ISO-8859-1, 
+Timeout (ms): 0, 
+Terminal family: VT420, 
+Wait: CursorPosition(9x11 after: "user@~$", onWritableField), 
+WaitTimeout: 10000

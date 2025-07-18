@@ -1,0 +1,24 @@
+﻿Starting process at 18:33:24                                                    
+                                                                                
+Step 1 completed at 00:00:01:    PASSED                                         
+Step 2 completed at 00:00:03:    FAILED                                         
+Step 3 completed at 00:00:06:    PASSED                                         
+Step 4 completed at 00:00:08:    PASSED                                         
+Step 5 completed at 00:00:11:    FAILED                                         
+Step 6 completed at 00:00:14:    PASSED                                         
+Step 7 completed at 00:00:18:    PASSED                                         
+Step 8 completed at 00:00:19:    PASSED                                         
+Step 9 completed at 00:00:20:    PASSED                                         
+Step 10 completed at 00:00:23:   FAILED                                         
+                                                                                
+                                                                                
+Process is finished at 00:00:23 with result: UNSTABLE                           
+                                                                                
+                                                                                
+myShell>exit                                                                    
+user@~$                                                                         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

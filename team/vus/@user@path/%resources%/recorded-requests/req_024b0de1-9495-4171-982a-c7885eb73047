@@ -1,0 +1,24 @@
+﻿                      Wally ISPF Primary Option Menu                            
+                                                                                
+  Option ===> 1                                                                 
+                                                                                
+  0  Settings     Specify terminal and user parms           USERID   : IBMUSER  
+  1  Browse       Display source data using Review          TIME     : 06:39:28 
+  2  Edit         Change source data using Revedit          TERMINAL : 3277     
+  3  Utilities    Perform utility functions                 SCREEN   : 1        
+  4  Foreground   Invoke language processors                LANGUAGE : ENGLISH  
+  5  Batch        Submit job for language processing        PANEL    : ISP@PRIM 
+  6  Command      Enter TSO command or CLIST                APPL ID  : ISP      
+  7  Dialog Test  Perform dialog testing                    PRIM     : YES      
+  A  ACETEST      APF-authorized test facility              PF KEYS  : 0012     
+  C  Changes      Summary of changes for this release       SYSTEMID : MVSC     
+  T  Tutorial     Display information about ISPF            PROC     : IKJACCNT 
+  SD RevOut       System display held job output            RELEASE  : V2.2.000 
+  X  EXIT         Terminate ISPF using log and list defaults                    
+  M  More         Additional Products                                           
+                                                                                
+       Enter X to terminate ISPF using log and list defaults                    
+                                                                                
+                                                                                
+                                                                                
+                                                                                

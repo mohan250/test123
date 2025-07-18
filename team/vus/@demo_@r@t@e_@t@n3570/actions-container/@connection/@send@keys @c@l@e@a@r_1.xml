@@ -1,0 +1,33 @@
+<custom-action actionType="RTESendKey" isHit="true"
+    name="SendKeys CLEAR_1" uid="44435f86-16fe-4605-993c-a70b98758d9a">
+    <description>Send a sequence of keys to the terminal
+
+Possible parameters are:
+- Actions (required): Sequence of keys to send to the terminal, for example "Hello&lt;ENTER&gt;".
+- Wait (optional): Specify what to wait for in the terminal to be ready to receive the next action. Possible syntaxes are: 
+	- CursorPosition(1x2) to wait until the cursor is at the first column and second row 
+	- CursorPosition(1x2 after: "text") to wait until the cursor is at the first column, second row and after the pattern 'text' 
+	- CursorPosition(1x2 after: "text", onWritableField) to wait until the cursor is at the first column, second row, after the pattern 'text' and on a 
+	writable field (only applicable to TN3270 terminal) 
+	- Text("text") to wait until the pattern 'text' is present on the screen 
+	- Text(1x2 "text") to wait until the pattern 'text' is present on the screen at the first column and second line 
+	- Text(1x2 3x4 "text") to wait until the pattern 'text' is present on the screen between the first column second line and the third column forth line 
+	- RegExp("Hello.*") to wait until the regular expression 'Hello.*' have a match on the screen 
+	- RegExp(1x2 "Hello.*") to wait until the regular expression 'Hello.*' have a match on the screen at the first column and second row 
+	- CursorVisible to wait until the cursor is visible 
+	- CursorHidden to wait until the cursor is hidden 
+	- KeyboardLocked to wait until the keyboard is locked 
+	- KeyboardUnlocked to wait until the keyboard is unlocked 
+	- Connected to wait until the terminal is connected 
+	- Disconnected to wait until the terminal is disconnected 
+	- ScreenRefresh to wait until the first screen refresh 
+	- Time(1000) to wait for 1000 milliseconds.
+- WaitTimeout (optional): Timeout to wait for in milliseconds, based on the Wait parameter. Default value is "10000".</description>
+    <custom-action-parameter name="Actions" type="TEXT" value="&lt;CLEAR>"/>
+    <custom-action-parameter name="WaitTimeout" type="TEXT" value="10000"/>
+    <custom-action-parameter name="Wait" type="TEXT" value="CursorPosition(18x10 after: &quot;.&quot;, onWritableField)"/>
+    <responsePageFileDescription>team/vus/@demo_@r@t@e_@t@n3570/%resources%/recorded-responses/res_344e5cc8-a608-4377-99cb-ab08c2c1317e</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@demo_@r@t@e_@t@n3570/%resources%/recorded-requests/req_344e5cc8-a608-4377-99cb-ab08c2c1317e</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@demo_@r@t@e_@t@n3570/%resources%/recorded-requests/req_raw_344e5cc8-a608-4377-99cb-ab08c2c1317e</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@demo_@r@t@e_@t@n3570/%resources%/recorded-responses/res_raw_344e5cc8-a608-4377-99cb-ab08c2c1317e</recordedResponseRawFileDescription>
+</custom-action>

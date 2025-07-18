@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Connection" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="655fde33-26bb-470b-9e36-ec35f6a85116" weightsEnabled="false">
+    <weighted-embedded-action uid="06dfadc6-54ae-41c6-a20c-5cb3935c6161"/>
+    <weighted-embedded-action uid="fe01f1a6-1d83-422f-95aa-d9db55eab424"/>
+    <weighted-embedded-action uid="e49d5119-b724-4a92-8588-59c9e7342f85"/>
+    <weighted-embedded-action uid="efe39a29-50cb-42ab-b1c8-b647c4d1edfc"/>
+    <weighted-embedded-action uid="737e3eaf-7f57-41cb-b6f1-d5077a49da58"/>
+    <weighted-embedded-action uid="0989039a-da01-4b6a-8471-7671669ae10c"/>
+    <weighted-embedded-action uid="12c05418-4938-4b99-ad06-ea17cb33df9a"/>
+</basic-logical-action-container>
