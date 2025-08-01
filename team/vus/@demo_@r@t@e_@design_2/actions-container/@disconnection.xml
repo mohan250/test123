@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Disconnection" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="ce2e85eb-cdba-4695-a71e-d2f8199b488a" weightsEnabled="false">
+    <weighted-embedded-action uid="f36c9922-0b83-4f2d-9b19-83929d8bed39"/>
+</basic-logical-action-container>
