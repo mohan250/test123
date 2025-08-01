@@ -28,6 +28,6 @@ Possible parameters are:
     <custom-action-parameter name="Wait" type="TEXT" value="CursorPosition(9x18 after: &quot;myShell>&quot;, onWritableField)"/>
     <responsePageFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-responses/res_51ab532e-8546-4be0-9de0-7f70ede8ab0b</responsePageFileDescription>
     <requestContentFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-requests/req_51ab532e-8546-4be0-9de0-7f70ede8ab0b</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-requests/req_raw_51ab532e-8546-4be0-9de0-7f70ede8ab0b</recordedRequestRawFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-responses/res_raw_51ab532e-8546-4be0-9de0-7f70ede8ab0b</recordedResponseRawFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-requests/req_raw_51ab532e-8546-4be0-9de0-7f70ede8ab0b.0</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-responses/res_raw_51ab532e-8546-4be0-9de0-7f70ede8ab0b.0</recordedResponseRawFileDescription>
 </custom-action>

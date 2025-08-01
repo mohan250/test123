@@ -1,6 +1,6 @@
 <scenario postMonitoringTime="-1" preMonitoringTime="-1"
-    slaProfileEnabled="true" slaProfileName="Profile"
-    traceVariables="true" uid="imported_imported_scenario1" virtualUsersStates="true">
+    slaProfileEnabled="true" traceVariables="true"
+    uid="imported_imported_scenario1" virtualUsersStates="true">
     <!--****** POPULATION POLICY ******-->
     <population-policy name="imported_Load_Test">
         <duration-policy-entry iterations="1" time="120" timeUnit="0" type="2"/>

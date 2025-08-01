@@ -1,4 +1,4 @@
-<custom-action actionType="RTEDisconnect" isHit="true" name="Disconnect" uid="f46b7f92-a894-4ac6-a13c-8027c5ecf978">
+<custom-action actionType="RTEDisconnect" isHit="true" name="Disconnect" uid="f4f9cda5-a623-4366-a5fb-6abcf55c9966">
     <description>Disconnect from a terminal server
 
 Possible parameters are:
@@ -23,6 +23,6 @@ Possible parameters are:
 - WaitTimeout (optional): Timeout to wait for in milliseconds, based on the Wait parameter. Default value is "10000".</description>
     <custom-action-parameter name="WaitTimeout" type="TEXT" value="5000"/>
     <custom-action-parameter name="Wait" type="TEXT" value="Disconnected"/>
-    <requestContentFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-requests/req_f46b7f92-a894-4ac6-a13c-8027c5ecf978</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-requests/req_raw_f46b7f92-a894-4ac6-a13c-8027c5ecf978.0</recordedRequestRawFileDescription>
+    <requestContentFileDescription>team/vus/@demo_@r@t@e_@design_1/%resources%/recorded-requests/req_f4f9cda5-a623-4366-a5fb-6abcf55c9966</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@demo_@r@t@e_@design_1/%resources%/recorded-requests/req_raw_f46b7f92-a894-4ac6-a13c-8027c5ecf978.0</recordedRequestRawFileDescription>
 </custom-action>

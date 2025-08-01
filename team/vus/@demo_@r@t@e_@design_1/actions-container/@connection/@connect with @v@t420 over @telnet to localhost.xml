@@ -1,5 +1,5 @@
 <custom-action actionType="RTEConnect" isHit="true"
-    name="Connect with VT420 over Telnet to localhost" uid="304a74fc-eb37-44a5-92ae-7aa27ed96916">
+    name="Connect with VT420 over Telnet to localhost" uid="cb9abc74-1ab6-4115-991f-a158e9cb5c7e">
     <description>Connect to a terminal server
 
 Possible parameters are:
@@ -42,6 +42,6 @@ Possible parameters are:
     <custom-action-parameter name="Terminal family" type="TEXT" value="VT420"/>
     <custom-action-parameter name="Wait" type="TEXT" value="CursorPosition(9x1 after: &quot;myShell>&quot;, onWritableField)"/>
     <custom-action-parameter name="WaitTimeout" type="TEXT" value="10000"/>
-    <responsePageFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-responses/res_304a74fc-eb37-44a5-92ae-7aa27ed96916</responsePageFileDescription>
-    <recordedResponseRawFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-responses/res_raw_304a74fc-eb37-44a5-92ae-7aa27ed96916.0</recordedResponseRawFileDescription>
+    <responsePageFileDescription>team/vus/@demo_@r@t@e_@design_1/%resources%/recorded-responses/res_cb9abc74-1ab6-4115-991f-a158e9cb5c7e</responsePageFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@demo_@r@t@e_@design_1/%resources%/recorded-responses/res_raw_304a74fc-eb37-44a5-92ae-7aa27ed96916.0</recordedResponseRawFileDescription>
 </custom-action>

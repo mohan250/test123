@@ -1,7 +1,9 @@
-<custom-action actionType="RTEDisconnect" isHit="true" name="Disconnect" uid="f46b7f92-a894-4ac6-a13c-8027c5ecf978">
-    <description>Disconnect from a terminal server
+<custom-action actionType="RTESendKey" isHit="true"
+    name="SendKeys longProcess ENTER" uid="f986170e-98a3-4eea-80d6-84f60c90246d">
+    <description>Send a sequence of keys to the terminal
 
 Possible parameters are:
+- Actions (required): Sequence of keys to send to the terminal, for example "Hello&lt;ENTER&gt;".
 - Wait (optional): Specify what to wait for in the terminal to be ready to receive the next action. Possible syntaxes are: 
 	- CursorPosition(1x2) to wait until the cursor is at the first column and second row 
 	- CursorPosition(1x2 after: "text") to wait until the cursor is at the first column, second row and after the pattern 'text' 
@@ -21,8 +23,11 @@ Possible parameters are:
 	- ScreenRefresh to wait until the first screen refresh 
 	- Time(1000) to wait for 1000 milliseconds.
 - WaitTimeout (optional): Timeout to wait for in milliseconds, based on the Wait parameter. Default value is "10000".</description>
-    <custom-action-parameter name="WaitTimeout" type="TEXT" value="5000"/>
-    <custom-action-parameter name="Wait" type="TEXT" value="Disconnected"/>
-    <requestContentFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-requests/req_f46b7f92-a894-4ac6-a13c-8027c5ecf978</requestContentFileDescription>
-    <recordedRequestRawFileDescription>team/vus/@demo_@r@t@e_@design/%resources%/recorded-requests/req_raw_f46b7f92-a894-4ac6-a13c-8027c5ecf978.0</recordedRequestRawFileDescription>
+    <custom-action-parameter name="Actions" type="TEXT" value="&quot;longProcess&quot;&lt;ENTER>"/>
+    <custom-action-parameter name="WaitTimeout" type="TEXT" value="30000"/>
+    <custom-action-parameter name="Wait" type="TEXT" value="CursorPosition(9x18 after: &quot;myShell>&quot;, onWritableField)"/>
+    <responsePageFileDescription>team/vus/@demo_@r@t@e_@design_1/%resources%/recorded-responses/res_f986170e-98a3-4eea-80d6-84f60c90246d</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@demo_@r@t@e_@design_1/%resources%/recorded-requests/req_f986170e-98a3-4eea-80d6-84f60c90246d</requestContentFileDescription>
+    <recordedRequestRawFileDescription>team/vus/@demo_@r@t@e_@design_1/%resources%/recorded-requests/req_raw_51ab532e-8546-4be0-9de0-7f70ede8ab0b.0</recordedRequestRawFileDescription>
+    <recordedResponseRawFileDescription>team/vus/@demo_@r@t@e_@design_1/%resources%/recorded-responses/res_raw_51ab532e-8546-4be0-9de0-7f70ede8ab0b.0</recordedResponseRawFileDescription>
 </custom-action>
