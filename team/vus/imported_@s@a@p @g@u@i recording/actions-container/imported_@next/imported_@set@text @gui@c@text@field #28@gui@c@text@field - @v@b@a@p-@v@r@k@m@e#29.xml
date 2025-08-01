@@ -1,0 +1,20 @@
+<custom-action actionType="SapSetText" isHit="false"
+    name="imported_SetText GuiCTextField (GuiCTextField - VBAP-VRKME)" uid="97995326-0a2c-4e52-8f52-c132d3662682">
+    <description>This action simulates a set text action in an SAP text field.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- value (optional): The text value&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/ctxtVBAP-VRKME[3,0]"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="VBAP-VRKME"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiCTextField"/>
+    <custom-action-parameter name="value" type="TEXT" value="ST"/>
+    <responsePageFileDescription>team/vus/imported_@s@a@p @g@u@i recording/%resources%/recorded-responses/res_0e8b70f9-83c1-46b5-b949-3c0a6f73393e</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/imported_@s@a@p @g@u@i recording/%resources%/recorded-screenshots/sc_0e8b70f9-83c1-46b5-b949-3c0a6f73393e.jpg</screenshotFileDescription>
+</custom-action>

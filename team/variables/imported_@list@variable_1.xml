@@ -1,0 +1,5 @@
+<variable-list name="imported_ListVariable_1" offset="1" order="1" policy="2" range="1" uid="48e96305-fdaf-4acb-80e0-7d88a1d5d8c3" whenOutOfValues="CYCLE_VALUES">
+<column name="Password" number="1"/>
+<column name="Username" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAADdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQABGoyZWV0AARqMmVldXEAfgACAAAAAnQABXVzZXIxdAAFcGFzczF1cQB+AAIAAAACdAAFdXNlcjJ0AAVwYXNzMg==]]></values>
+</variable-list>

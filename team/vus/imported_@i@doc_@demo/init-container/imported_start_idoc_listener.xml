@@ -1,0 +1,33 @@
+<custom-action actionType="IdocsType" isHit="false"
+    name="imported_start_idoc_listener" uid="aba0c301-f58f-4749-913d-360a1ec0a89d">
+    <description>Starts an IDoc listener that registers as a partner at the gateway, listens for outbound IDocs from the source system, and saves them in a queue.
+Use the IDoc Inbound action to respond to an IDoc in the queue.
+
+Parameters:
+- destination: name of the destination file. A destination properties file will be creating with this name.
+- host: IP address or name of the SAP Server.
+- sysnr: SAP system number.
+- client: Client code.
+- user: Login user id.
+- password: Login password.
+- lang: Language. Default: en.
+- gatewayHost: SAP Gateway to connect to from the vendor system.
+- gatewayService: Gateway service or port to listen on.
+- programId: Unique program ID assigned to the NeoLoad listener in the SAP destination by the basis team.
+- connectionCount: Number of parallel connections.
+- jco.client.&lt;propertyName&gt;: Advanced property to add to the destination properties. Example: jco.client.group=mygroup.
+- fileRepository: Folder in the LG box to store received outbound files. By default, files are not saved.
+- sendStatistics: Whether to send listener statistics to the Controller via the Data Exchange API. Default: false.
+- dataExchangeApiKey: Data Exchange API identification key specified in NeoLoad.
+- idocTypes: Comma-separated list of IDoc types to listen for.
+- capacityByType: Number of IDocs to keep in memory per type.
+- errorWaitingTime: Time to wait (in milliseconds) for a server error. Default: 150000.</description>
+    <custom-action-parameter name="host" type="TEXT" value="vwsvtstsap12.tricentis.com"/>
+    <custom-action-parameter name="sysnr" type="TEXT" value="00"/>
+    <custom-action-parameter name="client" type="TEXT" value="800"/>
+    <custom-action-parameter name="user" type="TEXT" value="MSAMPATH"/>
+    <encrypted-custom-action-parameter name="password" type="PASSWORD" value="WCgzFNpL2RDdFiT7aPmwaxacVtclXiKw23Fc6a19TsazmtIu773rh90VsBaFxj5x$3"/>
+    <custom-action-parameter name="gatewayHost" type="TEXT" value="gw"/>
+    <custom-action-parameter name="gatewayService" type="TEXT" value="gw"/>
+    <custom-action-parameter name="programId" type="TEXT" value="IDoc"/>
+</custom-action>

@@ -1,0 +1,16 @@
+<custom-action actionType="IdocInboundType" isHit="false"
+    name="imported_idoc_inbound" uid="86af84ab-853c-418b-94b4-10cf5e0dfed0">
+    <description>Sends an inbound IDoc based on an IDoc payload template or received outbound IDocs.
+
+Parameters:
+- destination: Name of the destination to use.
+- templateFile: Absolute path to the IDoc XML file to send.
+- parseXML: Whether to scan the template for NeoLoad variables. Possible values: true/false.
+- respondingToOutbound: Whether to respond to an IDoc received by the listener. Possible values: true/false.
+- idocType: Type of IDocs to respond to. Used only when respondingToOutbound=true.</description>
+    <custom-action-parameter name="destination" type="TEXT" value="IdocDestination1"/>
+    <custom-action-parameter name="templateFile" type="TEXT" value="${NL-CustomResources}/idoc01.xml"/>
+    <custom-action-parameter name="parseXml" type="TEXT" value="true"/>
+    <custom-action-parameter name="respondingToOutbound" type="TEXT" value="true"/>
+    <custom-action-parameter name="idocType" type="TEXT" value=""/>
+</custom-action>

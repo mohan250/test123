@@ -1,0 +1,192 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/Themes/DefaultClean/Content/images/ajax_loader_large.gif"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/6cc3c1c4-98be-4c75-9604-051431a9b20b.zip"
+    slaProfileEnabled="false" thinkTime="1570"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="6cc3c1c4-98be-4c75-9604-051431a9b20b">
+    <embedded-action>08695923-a661-49bd-aba2-84ee8ef06b82</embedded-action>
+    <embedded-action>4a58f82e-eaaf-45d3-8dac-2050d6a3eb8c</embedded-action>
+    <embedded-action>adb7598d-a993-4f0f-809e-dde5caf163da</embedded-action>
+    <embedded-action>13297319-13ce-4fa7-ac18-a68e64471793</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/gif"
+    eTag="&quot;dab071adaa2d21:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 30 Aug 2016 10:38:42 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="imported_/Themes/DefaultClean/Content/images/ajax_loader_large.gif"
+    path="/Themes/DefaultClean/Content/images/ajax_loader_large.gif"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/6cc3c1c4-98be-4c75-9604-051431a9b20b.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="imported_demowebshop.tricentis.com"
+    slaProfileEnabled="false" uid="08695923-a661-49bd-aba2-84ee8ef06b82" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b6593f91-c4ef-4a80-92c0-0c3e05ab9a9a.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a2d9fe79-8a5f-4b5b-963b-f15221cffe37.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-1722924245930-14833; optimizelyEndUserId=oeu1722924246336r0.0956756007818027; _biz_uid=03dbc53231d240b3aa64ce50f04f0202; _gcl_au=1.1.2116208602.1722924249; _fbp=fb.1.1722924249170.370144491333170575; PAPVisitorId=bDL4l3UXVHwvWsRocuMnBitb5tWp8dP4; _ga_NW0CQ3B4CY=GS1.2.1723196913.1.1.1723196920.53.0.0; ajs_anonymous_id=2fb7786b-d46e-442a-833d-15c20c19c152; _sp_id.2651=9ae6d09e-a3cb-43c1-861d-ffa6da784614.1725878378.1.1725878378.1725878378.f775283d-e49f-4e6f-90b4-b31de2f743b1; _clck=vgs5po%7C2%7Cfp1%7C0%7C1713; _ga_PS5H2WM46K=GS1.1.1725878378.1.1.1725878391.0.0.0; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; _biz_ABTestA=%5B-788736289%2C-1893783025%5D; _ga_489D1QT6C1=GS1.1.1726144164.8.1.1726144415.49.0.0; OptanonAlertBoxClosed=2024-09-12T12:41:37.837Z; _biz_nA=25; _biz_pendingA=%5B%5D; __utmz=78382081.1726641671.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _ga_BQMV2S0RM0=GS1.1.1727071843.56.1.1727073238.0.0.0; _vwo_uuid=D39E9B4EF07284896344A8D20694A4DAA; _vwo_ds=3%241727077467%3A54.54020296%3A%3A; _vis_opt_s=1%7C; _hjSessionUser_3539777=eyJpZCI6ImY0OGYyYWYwLWRkZWYtNTc0ZC05MGUwLTZhNzYyMzU2ZTBmMCIsImNyZWF0ZWQiOjE3MjcwNzc0NzA5NjYsImV4aXN0aW5nIjpmYWxzZX0=; OptanonConsent=isGpcEnabled=0&amp;datestamp=Mon+Sep+23+2024+13%3A14%3A30+GMT%2B0530+(India+Standard+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;consentId=9d912eea-d663-4529-8ad2-1410a276b144&amp;interactionCount=2&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0003%3A1%2CBG1%3A1%2CC0002%3A1%2CC0005%3A1%2CC0004%3A1&amp;AwaitingReconsent=false&amp;geolocation=IN%3BMH; _uetvid=af941f40797f11efab764f88e0c750e2; _gid=GA1.2.1286122148.1727242088; _ga=GA1.2.1766308048.1722833430; _ga_4GZTBFVFZ1=GS1.2.1727243790.30.1.1727244813.60.0.0; _ga_65NTGYMYHS=GS1.1.1727242088.273.1.1727245142.0.0.0; ARRAffinity=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; ARRAffinitySameSite=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; __utma=78382081.1766308048.1722833430.1727088981.1727245345.7; __utmc=78382081; __utmt=1; NOPCOMMERCE.AUTH=66E98CF97882E96EA8F64EBA436AE225CF24EBC108B38815DEC979EE7AD3CA400A31BFBE2E59A8F61A7CF4D9C7E3CED211C11315C21039F7257968DFA1F10009956A30500CFB9B1BAB263A33C951DCA2D96C75786C1AE3D25AD25F8E9B8CD85713B8F06299ABDF3FE03AF808F8039987C4B29C25111FEAC29AE421205E8DAF6193F53584A94E11D5BDBD0D569B46823A25D7868E3DDC5167B273628EE69B47561F5D233006BE07C56311DB8E18B2F8921FAAB40750699EEC5ADCA5EAB769CE33; Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=36&amp;RecentlyViewedProductIds=72; __utmb=78382081.8.10.1727245345"/>
+    <header name="Host" value="demowebshop.tricentis.com"/>
+    <header name="Referer" value="https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 36343&#xd;
+Content-Type: image/gif&#xd;
+Date: Wed, 25 Sep 2024 06:43:22 GMT&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=2073600&#xd;
+ETag: "dab071adaa2d21:0"&#xd;
+Last-Modified: Tue, 30 Aug 2016 10:38:42 GMT&#xd;
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/addproducttocart/details/36/1"
+    path="/addproducttocart/details/36/1" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/6cc3c1c4-98be-4c75-9604-051431a9b20b.zip"
+    recordedResponseCode="200" responseSize="2103"
+    serverUid="imported_demowebshop.tricentis.com"
+    slaProfileEnabled="false" uid="4a58f82e-eaaf-45d3-8dac-2050d6a3eb8c" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[YWRkdG9jYXJ0XzM2LkVudGVyZWRRdWFudGl0eT0yNQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_c85b0fa8-712c-4791-9056-f4c652589520</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c85b0fa8-712c-4791-9056-f4c652589520.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="addtocart_36.EnteredQuantity" recordRawValue="25"
+        separator="=" value="25" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-1722924245930-14833; optimizelyEndUserId=oeu1722924246336r0.0956756007818027; _biz_uid=03dbc53231d240b3aa64ce50f04f0202; _gcl_au=1.1.2116208602.1722924249; _fbp=fb.1.1722924249170.370144491333170575; PAPVisitorId=bDL4l3UXVHwvWsRocuMnBitb5tWp8dP4; _ga_NW0CQ3B4CY=GS1.2.1723196913.1.1.1723196920.53.0.0; ajs_anonymous_id=2fb7786b-d46e-442a-833d-15c20c19c152; _sp_id.2651=9ae6d09e-a3cb-43c1-861d-ffa6da784614.1725878378.1.1725878378.1725878378.f775283d-e49f-4e6f-90b4-b31de2f743b1; _clck=vgs5po%7C2%7Cfp1%7C0%7C1713; _ga_PS5H2WM46K=GS1.1.1725878378.1.1.1725878391.0.0.0; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; _biz_ABTestA=%5B-788736289%2C-1893783025%5D; _ga_489D1QT6C1=GS1.1.1726144164.8.1.1726144415.49.0.0; OptanonAlertBoxClosed=2024-09-12T12:41:37.837Z; _biz_nA=25; _biz_pendingA=%5B%5D; __utmz=78382081.1726641671.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _ga_BQMV2S0RM0=GS1.1.1727071843.56.1.1727073238.0.0.0; _vwo_uuid=D39E9B4EF07284896344A8D20694A4DAA; _vwo_ds=3%241727077467%3A54.54020296%3A%3A; _vis_opt_s=1%7C; _hjSessionUser_3539777=eyJpZCI6ImY0OGYyYWYwLWRkZWYtNTc0ZC05MGUwLTZhNzYyMzU2ZTBmMCIsImNyZWF0ZWQiOjE3MjcwNzc0NzA5NjYsImV4aXN0aW5nIjpmYWxzZX0=; OptanonConsent=isGpcEnabled=0&amp;datestamp=Mon+Sep+23+2024+13%3A14%3A30+GMT%2B0530+(India+Standard+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;consentId=9d912eea-d663-4529-8ad2-1410a276b144&amp;interactionCount=2&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0003%3A1%2CBG1%3A1%2CC0002%3A1%2CC0005%3A1%2CC0004%3A1&amp;AwaitingReconsent=false&amp;geolocation=IN%3BMH; _uetvid=af941f40797f11efab764f88e0c750e2; _gid=GA1.2.1286122148.1727242088; _ga=GA1.2.1766308048.1722833430; _ga_4GZTBFVFZ1=GS1.2.1727243790.30.1.1727244813.60.0.0; _ga_65NTGYMYHS=GS1.1.1727242088.273.1.1727245142.0.0.0; ARRAffinity=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; ARRAffinitySameSite=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; __utma=78382081.1766308048.1722833430.1727088981.1727245345.7; __utmc=78382081; __utmt=1; NOPCOMMERCE.AUTH=66E98CF97882E96EA8F64EBA436AE225CF24EBC108B38815DEC979EE7AD3CA400A31BFBE2E59A8F61A7CF4D9C7E3CED211C11315C21039F7257968DFA1F10009956A30500CFB9B1BAB263A33C951DCA2D96C75786C1AE3D25AD25F8E9B8CD85713B8F06299ABDF3FE03AF808F8039987C4B29C25111FEAC29AE421205E8DAF6193F53584A94E11D5BDBD0D569B46823A25D7868E3DDC5167B273628EE69B47561F5D233006BE07C56311DB8E18B2F8921FAAB40750699EEC5ADCA5EAB769CE33; Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=36&amp;RecentlyViewedProductIds=72; __utmb=78382081.8.10.1727245345"/>
+    <header name="Host" value="demowebshop.tricentis.com"/>
+    <header name="Origin" value="https://demowebshop.tricentis.com"/>
+    <header name="Referer" value="https://demowebshop.tricentis.com/blue-jeans"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 778&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Date: Wed, 25 Sep 2024 06:43:23 GMT&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+Cache-Control: private&#xd;
+Content-Encoding: gzip&#xd;
+Set-Cookie: Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; expires=Thu, 25-Sep-2025 06:43:23 GMT; path=/; HttpOnly&#xd;
+Vary: Accept-Encoding&#xd;
+X-AspNetMvc-Version: 5.2&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/png"
+    eTag="&quot;1ba22eaeaa2d21:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 30 Aug 2016 10:38:43 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="imported_/Themes/DefaultClean/Content/images/ico-close-notification-bar.png"
+    path="/Themes/DefaultClean/Content/images/ico-close-notification-bar.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/6cc3c1c4-98be-4c75-9604-051431a9b20b.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="imported_demowebshop.tricentis.com"
+    slaProfileEnabled="false" uid="adb7598d-a993-4f0f-809e-dde5caf163da" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_5f2a66c6-57db-4eea-a217-4967857a9e1d.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_deac99bf-477a-483d-955e-e843e85568db.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-1722924245930-14833; optimizelyEndUserId=oeu1722924246336r0.0956756007818027; _biz_uid=03dbc53231d240b3aa64ce50f04f0202; _gcl_au=1.1.2116208602.1722924249; _fbp=fb.1.1722924249170.370144491333170575; PAPVisitorId=bDL4l3UXVHwvWsRocuMnBitb5tWp8dP4; _ga_NW0CQ3B4CY=GS1.2.1723196913.1.1.1723196920.53.0.0; ajs_anonymous_id=2fb7786b-d46e-442a-833d-15c20c19c152; _sp_id.2651=9ae6d09e-a3cb-43c1-861d-ffa6da784614.1725878378.1.1725878378.1725878378.f775283d-e49f-4e6f-90b4-b31de2f743b1; _clck=vgs5po%7C2%7Cfp1%7C0%7C1713; _ga_PS5H2WM46K=GS1.1.1725878378.1.1.1725878391.0.0.0; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; _biz_ABTestA=%5B-788736289%2C-1893783025%5D; _ga_489D1QT6C1=GS1.1.1726144164.8.1.1726144415.49.0.0; OptanonAlertBoxClosed=2024-09-12T12:41:37.837Z; _biz_nA=25; _biz_pendingA=%5B%5D; __utmz=78382081.1726641671.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _ga_BQMV2S0RM0=GS1.1.1727071843.56.1.1727073238.0.0.0; _vwo_uuid=D39E9B4EF07284896344A8D20694A4DAA; _vwo_ds=3%241727077467%3A54.54020296%3A%3A; _vis_opt_s=1%7C; _hjSessionUser_3539777=eyJpZCI6ImY0OGYyYWYwLWRkZWYtNTc0ZC05MGUwLTZhNzYyMzU2ZTBmMCIsImNyZWF0ZWQiOjE3MjcwNzc0NzA5NjYsImV4aXN0aW5nIjpmYWxzZX0=; OptanonConsent=isGpcEnabled=0&amp;datestamp=Mon+Sep+23+2024+13%3A14%3A30+GMT%2B0530+(India+Standard+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;consentId=9d912eea-d663-4529-8ad2-1410a276b144&amp;interactionCount=2&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0003%3A1%2CBG1%3A1%2CC0002%3A1%2CC0005%3A1%2CC0004%3A1&amp;AwaitingReconsent=false&amp;geolocation=IN%3BMH; _uetvid=af941f40797f11efab764f88e0c750e2; _gid=GA1.2.1286122148.1727242088; _ga=GA1.2.1766308048.1722833430; _ga_4GZTBFVFZ1=GS1.2.1727243790.30.1.1727244813.60.0.0; _ga_65NTGYMYHS=GS1.1.1727242088.273.1.1727245142.0.0.0; ARRAffinity=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; ARRAffinitySameSite=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; __utma=78382081.1766308048.1722833430.1727088981.1727245345.7; __utmc=78382081; __utmt=1; NOPCOMMERCE.AUTH=66E98CF97882E96EA8F64EBA436AE225CF24EBC108B38815DEC979EE7AD3CA400A31BFBE2E59A8F61A7CF4D9C7E3CED211C11315C21039F7257968DFA1F10009956A30500CFB9B1BAB263A33C951DCA2D96C75786C1AE3D25AD25F8E9B8CD85713B8F06299ABDF3FE03AF808F8039987C4B29C25111FEAC29AE421205E8DAF6193F53584A94E11D5BDBD0D569B46823A25D7868E3DDC5167B273628EE69B47561F5D233006BE07C56311DB8E18B2F8921FAAB40750699EEC5ADCA5EAB769CE33; Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=36&amp;RecentlyViewedProductIds=72; __utmb=78382081.8.10.1727245345"/>
+    <header name="Host" value="demowebshop.tricentis.com"/>
+    <header name="Referer" value="https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 703&#xd;
+Content-Type: image/png&#xd;
+Date: Wed, 25 Sep 2024 06:43:23 GMT&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=2073600&#xd;
+ETag: "1ba22eaeaa2d21:0"&#xd;
+Last-Modified: Tue, 30 Aug 2016 10:38:43 GMT&#xd;
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    eTag="&quot;ca88d3eba92d21:0&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Tue, 30 Aug 2016 10:33:17 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="imported_/content/images/thumbs/0000118_blue-jeans_47.jpeg"
+    path="/content/images/thumbs/0000118_blue-jeans_47.jpeg"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/6cc3c1c4-98be-4c75-9604-051431a9b20b.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="imported_demowebshop.tricentis.com"
+    slaProfileEnabled="false" uid="13297319-13ce-4fa7-ac18-a68e64471793" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_21fe26f5-18bd-49d7-aa88-57dce6892d39</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_10f60bf8-493a-4d2e-962e-4c38b54097fc.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-1722924245930-14833; optimizelyEndUserId=oeu1722924246336r0.0956756007818027; _biz_uid=03dbc53231d240b3aa64ce50f04f0202; _gcl_au=1.1.2116208602.1722924249; _fbp=fb.1.1722924249170.370144491333170575; PAPVisitorId=bDL4l3UXVHwvWsRocuMnBitb5tWp8dP4; _ga_NW0CQ3B4CY=GS1.2.1723196913.1.1.1723196920.53.0.0; ajs_anonymous_id=2fb7786b-d46e-442a-833d-15c20c19c152; _sp_id.2651=9ae6d09e-a3cb-43c1-861d-ffa6da784614.1725878378.1.1725878378.1725878378.f775283d-e49f-4e6f-90b4-b31de2f743b1; _clck=vgs5po%7C2%7Cfp1%7C0%7C1713; _ga_PS5H2WM46K=GS1.1.1725878378.1.1.1725878391.0.0.0; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; _biz_ABTestA=%5B-788736289%2C-1893783025%5D; _ga_489D1QT6C1=GS1.1.1726144164.8.1.1726144415.49.0.0; OptanonAlertBoxClosed=2024-09-12T12:41:37.837Z; _biz_nA=25; _biz_pendingA=%5B%5D; __utmz=78382081.1726641671.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _ga_BQMV2S0RM0=GS1.1.1727071843.56.1.1727073238.0.0.0; _vwo_uuid=D39E9B4EF07284896344A8D20694A4DAA; _vwo_ds=3%241727077467%3A54.54020296%3A%3A; _vis_opt_s=1%7C; _hjSessionUser_3539777=eyJpZCI6ImY0OGYyYWYwLWRkZWYtNTc0ZC05MGUwLTZhNzYyMzU2ZTBmMCIsImNyZWF0ZWQiOjE3MjcwNzc0NzA5NjYsImV4aXN0aW5nIjpmYWxzZX0=; OptanonConsent=isGpcEnabled=0&amp;datestamp=Mon+Sep+23+2024+13%3A14%3A30+GMT%2B0530+(India+Standard+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;consentId=9d912eea-d663-4529-8ad2-1410a276b144&amp;interactionCount=2&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0003%3A1%2CBG1%3A1%2CC0002%3A1%2CC0005%3A1%2CC0004%3A1&amp;AwaitingReconsent=false&amp;geolocation=IN%3BMH; _uetvid=af941f40797f11efab764f88e0c750e2; _gid=GA1.2.1286122148.1727242088; _ga=GA1.2.1766308048.1722833430; _ga_4GZTBFVFZ1=GS1.2.1727243790.30.1.1727244813.60.0.0; _ga_65NTGYMYHS=GS1.1.1727242088.273.1.1727245142.0.0.0; ARRAffinity=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; ARRAffinitySameSite=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; __utma=78382081.1766308048.1722833430.1727088981.1727245345.7; __utmc=78382081; __utmt=1; NOPCOMMERCE.AUTH=66E98CF97882E96EA8F64EBA436AE225CF24EBC108B38815DEC979EE7AD3CA400A31BFBE2E59A8F61A7CF4D9C7E3CED211C11315C21039F7257968DFA1F10009956A30500CFB9B1BAB263A33C951DCA2D96C75786C1AE3D25AD25F8E9B8CD85713B8F06299ABDF3FE03AF808F8039987C4B29C25111FEAC29AE421205E8DAF6193F53584A94E11D5BDBD0D569B46823A25D7868E3DDC5167B273628EE69B47561F5D233006BE07C56311DB8E18B2F8921FAAB40750699EEC5ADCA5EAB769CE33; Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=36&amp;RecentlyViewedProductIds=72; __utmb=78382081.8.10.1727245345"/>
+    <header name="Host" value="demowebshop.tricentis.com"/>
+    <header name="Referer" value="https://demowebshop.tricentis.com/blue-jeans"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="image"/>
+    <header name="Sec-Fetch-Mode" value="no-cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 1174&#xd;
+Content-Type: image/jpeg&#xd;
+Date: Wed, 25 Sep 2024 06:43:23 GMT&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+Accept-Ranges: bytes&#xd;
+Cache-Control: max-age=2073600&#xd;
+ETag: "ca88d3eba92d21:0"&#xd;
+Last-Modified: Tue, 30 Aug 2016 10:33:17 GMT&#xd;
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

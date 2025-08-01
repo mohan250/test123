@@ -1,0 +1,107 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/api/v1/images/stellar/videothumbnails/18855491-48390260-generated-thumbnail.jpg"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/1635beab-e504-487e-ac5b-15a7dadce860.zip"
+    slaProfileEnabled="false" thinkTime="678"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1635beab-e504-487e-ac5b-15a7dadce860">
+    <embedded-action>306ff614-56ec-42f0-a013-3acf38688604</embedded-action>
+    <embedded-action>23935ae2-6dc0-4dc0-b87a-325f7c1ce574</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/jpeg"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 04 Sep 2024 03:01:00 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="imported_/api/v1/images/stellar/videothumbnails/18855491-48390260-generated-thumbnail.jpg"
+    path="/api/v1/images/stellar/videothumbnails/18855491-48390260-generated-thumbnail.jpg"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/1635beab-e504-487e-ac5b-15a7dadce860.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="imported_media.cnn.com" slaProfileEnabled="false"
+    uid="306ff614-56ec-42f0-a013-3acf38688604" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2edfb87b-7edd-472f-ae8f-cd0ca2bff6f6</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2edfb87b-7edd-472f-ae8f-cd0ca2bff6f6.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="c"
+        recordRawValue="16x9" separator="=" value="16x9" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="q"
+        recordRawValue="w_440" separator="=" value="w_440" valueMode="USE_VALUE"/>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN,en-GB;q=0.9,en;q=0.8"/>
+    <header name="cookie" value="countryCode=IN; geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000; stateCode=MH; s_ecid=MCMID%7C42800885309200591226353008048359080596; FastAB=0=0372,1=5895,2=5465,3=9049,4=5533,5=9329,6=0950,7=7374,8=1961,9=7421,10=4980,11=1101,12=9128,13=4591,14=1767,15=0932,16=3983,17=9957,18=8017,19=2274"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="CNN/10542719 CFNetwork/1496.0.7 Darwin/23.5.0"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/jpeg&#xd;
+x-content-hub-dam: build-env=prod; unique-deployment-key=dam0002; build-version=v5.7.0; build-commit-hash=b632d789a7604b856e00e73ae4131a6e95d967c0&#xd;
+access-control-allow-origin: *&#xd;
+last-modified: Wed, 04 Sep 2024 03:01:00 GMT&#xd;
+cache-control: max-age=300&#xd;
+via: 1.1 varnish, 1.1 varnish&#xd;
+accept-ranges: bytes&#xd;
+age: 14544&#xd;
+date: Wed, 04 Sep 2024 07:13:21 GMT&#xd;
+set-cookie: countryCode=IN; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: stateCode=MH; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+x-served-by: cache-iad-kiad7000153-IAD, cache-bom4733-BOM&#xd;
+x-cache: HIT, HIT&#xd;
+x-cache-hits: 108, 0&#xd;
+x-timer: S1725434001.383075,VS0,VE1&#xd;
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400&#xd;
+content-length: 31519</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/jpeg"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Wed, 04 Sep 2024 02:39:15 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="imported_/api/v1/images/stellar/videothumbnails/17550193-60886370-generated-thumbnail.jpg"
+    path="/api/v1/images/stellar/videothumbnails/17550193-60886370-generated-thumbnail.jpg"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/1635beab-e504-487e-ac5b-15a7dadce860.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="imported_media.cnn.com" slaProfileEnabled="false"
+    uid="23935ae2-6dc0-4dc0-b87a-325f7c1ce574" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_add41220-2d36-4596-8e1f-3368178c9a8d</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_add41220-2d36-4596-8e1f-3368178c9a8d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="c"
+        recordRawValue="16x9" separator="=" value="16x9" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="q"
+        recordRawValue="w_440" separator="=" value="w_440" valueMode="USE_VALUE"/>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN,en-GB;q=0.9,en;q=0.8"/>
+    <header name="cookie" value="countryCode=IN; geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000; stateCode=MH; s_ecid=MCMID%7C42800885309200591226353008048359080596; FastAB=0=0372,1=5895,2=5465,3=9049,4=5533,5=9329,6=0950,7=7374,8=1961,9=7421,10=4980,11=1101,12=9128,13=4591,14=1767,15=0932,16=3983,17=9957,18=8017,19=2274"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="CNN/10542719 CFNetwork/1496.0.7 Darwin/23.5.0"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: image/jpeg&#xd;
+x-content-hub-dam: build-env=prod; unique-deployment-key=dam0002; build-version=v5.7.0; build-commit-hash=b632d789a7604b856e00e73ae4131a6e95d967c0&#xd;
+access-control-allow-origin: *&#xd;
+last-modified: Wed, 04 Sep 2024 02:39:15 GMT&#xd;
+cache-control: max-age=300&#xd;
+via: 1.1 varnish, 1.1 varnish&#xd;
+accept-ranges: bytes&#xd;
+age: 15643&#xd;
+date: Wed, 04 Sep 2024 07:13:22 GMT&#xd;
+set-cookie: countryCode=IN; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: stateCode=MH; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+x-served-by: cache-iad-kcgs7200054-IAD, cache-bom4733-BOM&#xd;
+x-cache: HIT, HIT&#xd;
+x-cache-hits: 86, 0&#xd;
+x-timer: S1725434002.086812,VS0,VE1&#xd;
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400&#xd;
+content-length: 22993</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,52 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="imported_/login"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@switch/%resources%/recorded-artifacts/d5d09031-39ad-4a70-971e-a3b8f21a8363.zip"
+    slaProfileEnabled="false" thinkTime="4142"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d5d09031-39ad-4a70-971e-a3b8f21a8363">
+    <embedded-action>1088c70e-fcca-4d82-8317-6e2cdc41b66d</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_b391284e-ed4f-4fff-bff7-0293e105c647.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/login" path="/login" postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@switch/%resources%/recorded-artifacts/d5d09031-39ad-4a70-971e-a3b8f21a8363.zip"
+    recordedResponseCode="200" responseSize="22445"
+    serverUid="imported_demowebshop.tricentis.com"
+    slaProfileEnabled="false" uid="1088c70e-fcca-4d82-8317-6e2cdc41b66d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8d62c05e-33aa-47e1-9146-64bdda8f9851.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8d62c05e-33aa-47e1-9146-64bdda8f9851.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-1722924245930-14833; optimizelyEndUserId=oeu1722924246336r0.0956756007818027; _biz_uid=03dbc53231d240b3aa64ce50f04f0202; _fbp=fb.1.1722924249170.370144491333170575; PAPVisitorId=bDL4l3UXVHwvWsRocuMnBitb5tWp8dP4; ajs_anonymous_id=2fb7786b-d46e-442a-833d-15c20c19c152; _ga_PS5H2WM46K=GS1.1.1725878378.1.1.1725878391.0.0.0; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; OptanonAlertBoxClosed=2024-09-12T12:41:37.837Z; __utmz=78382081.1726641671.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _vwo_uuid=D39E9B4EF07284896344A8D20694A4DAA; _hjSessionUser_3539777=eyJpZCI6ImY0OGYyYWYwLWRkZWYtNTc0ZC05MGUwLTZhNzYyMzU2ZTBmMCIsImNyZWF0ZWQiOjE3MjcwNzc0NzA5NjYsImV4aXN0aW5nIjp0cnVlfQ==; _clck=vgs5po%7C2%7Cfq8%7C0%7C1713; _sp_id.2651=9ae6d09e-a3cb-43c1-861d-ffa6da784614.1725878378.2.1729600257.1725878378.f8c3f56c-14cb-485a-8a8d-57550d70cfba; _ga_489D1QT6C1=GS1.1.1731498502.9.0.1731498502.60.0.0; _biz_ABTestA=%5B-788736289%2C-1893783025%2C-1267324901%2C906545904%5D; _vwo_uuid_v2=D39E9B4EF07284896344A8D20694A4DAA|6f04d3ba0972633fc4b1ac151d21ad26; apt.uid=AP-EZ7EPHK4AIVE-2-1742555315965-42311139.0.2.0e9003a4-cf34-4531-97b7-35b29700a007; _ga_NW0CQ3B4CY=GS2.2.s1746511316$o7$g1$t1746511321$j55$l0$h0; _ga_5VTS3QGX40=GS2.2.s1747725449$o9$g0$t1747725449$j60$l0$h0$dmIcCSwz0CPf-zoXqpI0HU9GCjFnQf0zFMQ; _gcl_au=1.1.1609306382.1750947806; _biz_nA=74; _biz_pendingA=%5B%5D; _vwo_ds=3%241751258354%3A81.33156003%3A%3A; _vis_opt_s=2%7C; OptanonConsent=isGpcEnabled=0&amp;datestamp=Mon+Jun+30+2025+10%3A09%3A45+GMT%2B0530+(India+Standard+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;consentId=9d912eea-d663-4529-8ad2-1410a276b144&amp;interactionCount=2&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0003%3A1%2CBG1%3A1%2CC0002%3A1%2CC0005%3A1%2CC0004%3A1&amp;AwaitingReconsent=false&amp;geolocation=IN%3BMH; _uetvid=af941f40797f11efab764f88e0c750e2|1f6d84w|1751258387327|2|1|bat.bing-int.com/p/insights/c/y; _ga_4GZTBFVFZ1=GS2.2.s1751948626$o76$g0$t1751948626$j60$l0$h0; _ga_BQMV2S0RM0=GS2.1.s1752724676$o396$g0$t1752724676$j60$l0$h0; _ga=GA1.1.1766308048.1722833430; _ga_65NTGYMYHS=GS2.1.s1753251384$o165$g1$t1753251395$j49$l0$h0; ARRAffinity=c70bdcb91dec63aaca09567ddbbdf6da6735833fc33e32dcfc3a6c06d60d8ced; ARRAffinitySameSite=c70bdcb91dec63aaca09567ddbbdf6da6735833fc33e32dcfc3a6c06d60d8ced; __utma=78382081.1766308048.1722833430.1751374382.1753341946.32; __utmc=78382081; __utmt=1; ASP.NET_SessionId=htxfnbruiz5dvmxmk5t2cnsz; Nop.customer=400d0855-9e35-4cd5-88c9-eaa50dee2e33; __utmb=78382081.10.10.1753341946"/>
+    <header name="Host" value="demowebshop.tricentis.com"/>
+    <header name="Referer" value="https://demowebshop.tricentis.com/"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="document"/>
+    <header name="Sec-Fetch-Mode" value="navigate"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="Sec-Fetch-User" value="?1"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 5732&#xd;
+Content-Type: text/html; charset=utf-8&#xd;
+Date: Thu, 24 Jul 2025 07:31:22 GMT&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+Cache-Control: private&#xd;
+Content-Encoding: gzip&#xd;
+Set-Cookie: Nop.customer=400d0855-9e35-4cd5-88c9-eaa50dee2e33; expires=Fri, 24-Jul-2026 07:31:22 GMT; path=/; HttpOnly&#xd;
+Vary: Accept-Encoding&#xd;
+X-AspNetMvc-Version: 5.2&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

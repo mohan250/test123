@@ -1,0 +1,36 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="imported_Exercise 15a - SQBuyer_Add Value">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="51bea16e-08f1-4c77-a237-d0abd279bd8c"/>
+        <weighted-embedded-action uid="ddea4c5f-6e0f-4c82-a3ba-3af9f93cc71c"/>
+        <weighted-embedded-action uid="8d10bfc4-836b-4472-9bdb-e5316c4debad"/>
+        <weighted-embedded-action uid="f745a4a9-362e-4729-a595-7ddd7e0350af"/>
+        <weighted-embedded-action uid="8c3ef289-d04c-4108-8de6-c09301d1a059"/>
+        <weighted-embedded-action uid="0b1f0cfe-b91b-4465-bb8b-7f70c29f6075"/>
+        <weighted-embedded-action uid="9660b465-0a4c-40ce-8335-21bf09a633ab"/>
+        <weighted-embedded-action uid="47156cd5-a9a7-42d7-a5e4-5ef7e271b13a"/>
+        <weighted-embedded-action uid="5da2837d-9c2b-4140-8c2b-6a337b1f91d1"/>
+        <weighted-embedded-action uid="586bd55e-508c-432d-85bb-1c2ff080a7db"/>
+        <weighted-embedded-action uid="8d49e4f5-6df2-4995-8aab-e5800a9fea31"/>
+        <weighted-embedded-action uid="21228fc7-0ff8-414d-aaca-aec679ece744"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

@@ -1,0 +1,8 @@
+<custom-action actionType="SQL Disconnection" isHit="false"
+    name="imported_sql_disconnection" uid="955629e5-6079-4828-99ba-22a7f189d652">
+    <description>This action disconnects from a SQL database.
+Possible parameters are:
+- connectionName: (required) the name of the connection to disconnect..</description>
+    <custom-action-parameter name="connectionName" type="TEXT" value="myConnection"/>
+    <responsePageFileDescription>team/vus/imported_@data@base_@testing/%resources%/recorded-responses/res_8ba6a244-8a47-4ffe-b695-e7a703141fdf</responsePageFileDescription>
+</custom-action>

@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/mobile/v3/index" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/94aa1364-d323-4965-8a15-aecb5b4c560f.zip"
+    slaProfileEnabled="false" thinkTime="249"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="94aa1364-d323-4965-8a15-aecb5b4c560f">
+    <embedded-action>217c322a-7a86-4fab-9f37-a43fef15876a</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/mobile/v3/index"
+    path="/mobile/v3/index" postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/94aa1364-d323-4965-8a15-aecb5b4c560f.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="imported_www.cnn.com" slaProfileEnabled="false"
+    uid="217c322a-7a86-4fab-9f37-a43fef15876a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_84edb8c7-5166-4f1b-9bea-c4d5a4d51497</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_84edb8c7-5166-4f1b-9bea-c4d5a4d51497.txt</requestContentFileDescription>
+    <header name="x-content-hub-agent" value="mobile-app"/>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN,en-GB;q=0.9,en;q=0.8"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="CNN/10542719 CFNetwork/1496.0.7 Darwin/23.5.0"/>
+    <header name="x-content-hub-region" value="international"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+server: Varnish&#xd;
+retry-after: 0&#xd;
+cache-control: public, max-age=60&#xd;
+location: https://edition.cnn.com/mobile/v3/index&#xd;
+accept-ranges: bytes&#xd;
+date: Wed, 04 Sep 2024 07:12:02 GMT&#xd;
+via: 1.1 varnish&#xd;
+set-cookie: SecGpc=0; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: countryCode=IN; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: stateCode=MH; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000|0; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+x-served-by: cache-bom4745-BOM&#xd;
+x-cache: HIT&#xd;
+x-cache-hits: 0&#xd;
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

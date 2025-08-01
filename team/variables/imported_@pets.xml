@@ -1,0 +1,4 @@
+<variable-list name="imported_Pets" offset="1" order="3" policy="5" range="1" uid="da32e7a7-ec71-459b-86d2-c6747a226bb6" whenOutOfValues="CYCLE_VALUES">
+<column name="Category" number="0"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAAEdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQACEdvbGRmaXNodXEAfgACAAAAAXQAB0J1bGxkb2d1cQB+AAIAAAABdAAGSWd1YW5hdXEAfgACAAAAAXQABE1hbng=]]></values>
+</variable-list>

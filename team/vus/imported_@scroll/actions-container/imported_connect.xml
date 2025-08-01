@@ -1,0 +1,14 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_connect" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="2f6f3d41-ef88-4603-8de0-14422bc8b3cd" weightsEnabled="false">
+    <weighted-embedded-action uid="e55afa84-8148-4db4-be2c-54b3f36edffa"/>
+    <weighted-embedded-action uid="fb3c170b-d709-484b-90fa-d8a54aef2730"/>
+    <weighted-embedded-action uid="c6b2fcee-2b3f-4edb-89ad-3af02186321d"/>
+    <weighted-embedded-action uid="71062f3b-2dee-4b72-8ed5-d1be0fb243d7"/>
+    <weighted-embedded-action uid="237f0613-a150-48b4-a37f-f1d170dc267f"/>
+    <weighted-embedded-action uid="9a914fa4-f96c-4257-b988-d70cedec3c17"/>
+    <weighted-embedded-action uid="5e067ab0-b20c-4436-8a03-6fee4050a081"/>
+    <weighted-embedded-action uid="619e8d9e-13f4-4646-9860-c63be7f16c74"/>
+    <weighted-embedded-action uid="5e333574-4a4a-40fe-9c47-c11673979f89"/>
+</basic-logical-action-container>

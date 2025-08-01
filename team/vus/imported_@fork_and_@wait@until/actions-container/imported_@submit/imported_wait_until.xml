@@ -1,0 +1,7 @@
+<wait-until-action name="imported_wait_until"
+    uid="7ff95f56-ddeb-4b4d-9650-951a6d7a01e7" wait-timeout="6000">
+    <conditions match-type="1">
+        <condition operand1="${imported_Email_WebShop}"
+            operand2="siddhant.dalvi@tricentis.test" operator="EQUALS"/>
+    </conditions>
+</wait-until-action>

@@ -1,0 +1,13 @@
+<custom-action actionType="RfcActionType" isHit="false"
+    name="imported_rfc_execute_1" uid="be50f3b2-9a84-49b6-b105-1b40dd33e326">
+    <description>Executes an RFC function.
+
+Parameters:
+- destination: Name of the destination to use.
+- remoteFunction: Name of the function to execute.
+- importParameters: Import parameter names and values. Use , to separate parameters and : to separate names and values. Example: name1:value1,name2:value2.
+- tableParameters: Table parameter names and values. Use , to separate parameters and : to separate names and values. Example: name1:value1,name2:value2.</description>
+    <custom-action-parameter name="destination" type="TEXT" value="SAP-S21-S4-HANA[LS]"/>
+    <custom-action-parameter name="remoteFunction" type="TEXT" value="BAPI_MATPHYSINV_GETDETAIL"/>
+    <custom-action-parameter name="importParameters" type="TEXT" value="Encoded(Base64):77+/"/>
+</custom-action>

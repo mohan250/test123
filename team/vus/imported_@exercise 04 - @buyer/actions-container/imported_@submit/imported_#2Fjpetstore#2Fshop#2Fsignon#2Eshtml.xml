@@ -1,0 +1,69 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/jpetstore/shop/signon.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@exercise 04 - @buyer/%resources%/recorded-artifacts/5d4fb81c-17ac-40d6-b98e-473978b0a9ae.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5d4fb81c-17ac-40d6-b98e-473978b0a9ae">
+    <embedded-action>5d44bd37-dcd3-44a6-ae66-51017de7535b</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_c759fe3f-2b03-48ab-a574-0bd160063e94.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/jpetstore/shop/signon.shtml"
+    path="/jpetstore/shop/signon.shtml" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/imported_@exercise 04 - @buyer/%resources%/recorded-artifacts/5d4fb81c-17ac-40d6-b98e-473978b0a9ae.zip"
+    recordedResponseCode="200"
+    refererUid="0608c6a8-6fc6-4c80-901b-679e4d8580bf"
+    responseSize="6530" serverUid="imported_tri-5cg10762mp"
+    slaProfileEnabled="false" uid="5d44bd37-dcd3-44a6-ae66-51017de7535b" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dXNlcm5hbWU9ajJlZSZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF8yfSZ4PTQwJnk9Ng==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_c5fcdc99-38ce-4980-8dc6-454f58244016.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c5fcdc99-38ce-4980-8dc6-454f58244016.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Extracted_ID"
+        refererUid="79d42771-255e-43ba-b5e0-d5a7169d9bd8"
+        regExp="&amp;id=(.*?)&quot;>" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="&amp;id="
+        template="$1$" templateAdv="$1$"
+        uid="2eb87957-a7b1-4d90-9535-8469398368db" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="username"
+        recordRawValue="j2ee" separator="=" value="j2ee" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="password"
+        recordRawValue="${AutoPassword_2}" separator="="
+        value="${imported_imported_AutoPassword_2}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x"
+        recordRawValue="40" separator="=" value="40" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="y"
+        recordRawValue="6" separator="=" value="6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=8EEFE409AD1E663E5252EB624ED5F52B"/>
+    <header name="Host" value="tri-5cg10762mp:8080"/>
+    <header name="Origin" value="http://tri-5cg10762mp:8080"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://tri-5cg10762mp:8080/jpetstore/shop/signonForm.shtml"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=ISO-8859-1&#xd;
+Content-Length: 6530&#xd;
+Date: Tue, 25 Jun 2024 09:07:22 GMT</responseHeaders>
+    <record-html-infos extractorName="accountBean"
+        extractorOccurence="2" extractorRegExp="false" htmlType="2"/>
+</http-action>

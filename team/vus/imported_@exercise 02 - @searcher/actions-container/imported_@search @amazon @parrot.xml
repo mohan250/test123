@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Search Amazon Parrot" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="363e5828-78ab-402e-b90a-9499926f1730" weightsEnabled="false">
+    <weighted-embedded-action uid="eb66821a-c5f6-4e1c-b7c9-41791135f986"/>
+</basic-logical-action-container>

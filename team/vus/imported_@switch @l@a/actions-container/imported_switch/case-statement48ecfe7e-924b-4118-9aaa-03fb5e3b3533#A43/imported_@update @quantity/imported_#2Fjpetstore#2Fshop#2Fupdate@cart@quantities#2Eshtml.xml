@@ -1,0 +1,52 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/jpetstore/shop/updateCartQuantities.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@switch @l@a/%resources%/recorded-artifacts/83a68157-be21-473c-99e4-048ad93ff567.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="83a68157-be21-473c-99e4-048ad93ff567">
+    <embedded-action>b60eddd4-edb7-4fca-a22e-5b4ed3e00fd6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_04f033ed-edd2-450f-9782-0b439fe16659.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="imported_/jpetstore/shop/updateCartQuantities.shtml"
+    path="/jpetstore/shop/updateCartQuantities.shtml"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/imported_@switch @l@a/%resources%/recorded-artifacts/83a68157-be21-473c-99e4-048ad93ff567.zip"
+    recordedResponseCode="200" responseSize="6069"
+    serverUid="imported_tri-5cg10762mp" slaProfileEnabled="false"
+    uid="b60eddd4-edb7-4fca-a22e-5b4ed3e00fd6" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[RVNULTIwPTEmdXBkYXRlLng9NDImdXBkYXRlLnk9OA==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_fa532e1f-d4a1-4164-b047-c4ad97be54a2.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_fa532e1f-d4a1-4164-b047-c4ad97be54a2.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="EST-20"
+        recordRawValue="1" separator="=" value="${imported_UpdateQty}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="update.x"
+        recordRawValue="42" separator="=" value="42" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="update.y"
+        recordRawValue="8" separator="=" value="8" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=3C87FF9D631D1621109420D0322361DD"/>
+    <header name="Host" value="tri-5cg10762mp:8080"/>
+    <header name="Origin" value="http://tri-5cg10762mp:8080"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://tri-5cg10762mp:8080/jpetstore/shop/addItemToCart.shtml?workingItemId=EST-20"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=ISO-8859-1&#xd;
+Content-Length: 6069&#xd;
+Date: Fri, 12 Jul 2024 04:51:26 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

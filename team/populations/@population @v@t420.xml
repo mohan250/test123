@@ -1,5 +1,5 @@
 <population uid="Population VT420">
-    <split cache="1" factor="100.0" virtualUserUid="Terminal-gui">
+    <split cache="1" factor="100.0" virtualUserUid="Demo_RTE_Design">
         <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
             connections="6" cookies="true" http2="true" name="browser.recorded"/>
         <wan-emulation-profile

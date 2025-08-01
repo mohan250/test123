@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Click bulldog id" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="c3f1e1c2-5f59-49b7-a24f-f9069e789754" weightsEnabled="false">
+    <weighted-embedded-action uid="dabf6f4b-ba86-457a-9017-fb8f4f6bc09b"/>
+</basic-logical-action-container>

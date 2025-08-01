@@ -1,0 +1,10 @@
+<custom-action actionType="RfcScanFunctionType" isHit="false"
+    name="imported_rfc_scan_function" uid="7db005bd-e716-40d5-92d3-7e310accabe9">
+    <description>Scans an RFC function and retrieves its signature.
+
+Parameters:
+- destination: Name of the destination to use.
+- remoteFunction: Name of the function to scan.</description>
+    <custom-action-parameter name="destination" type="TEXT" value="SAP-S21-S4-HANA[LS]"/>
+    <custom-action-parameter name="remoteFunction" type="TEXT" value="BAPI_COMPANYCODE_GETDETAIL"/>
+</custom-action>

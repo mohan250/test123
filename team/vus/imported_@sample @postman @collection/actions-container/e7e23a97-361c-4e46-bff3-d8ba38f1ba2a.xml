@@ -1,0 +1,15 @@
+<http-action actionType="1"
+    eTag="W/&quot;333-F02eS/CBxDQ3lBOHvo+nUoVuRS0&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/post" path="/post" postType="4"
+    serverUid="imported_postman-echo.com" slaProfileEnabled="false"
+    uid="e7e23a97-361c-4e46-bff3-d8ba38f1ba2a" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/imported_@sample @postman @collection/%resources%/recorded-responses/res_3c02ca8f-6247-4065-81ec-d4e361879668</responsePageFileDescription>
+    <header name="Content-Type" value="application/json"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"text":"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium..."}]]></textPostContent>
+</http-action>

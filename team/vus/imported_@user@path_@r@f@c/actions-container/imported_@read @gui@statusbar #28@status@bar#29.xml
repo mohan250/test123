@@ -1,0 +1,23 @@
+<custom-action actionType="SapRead" isHit="false"
+    name="imported_Read GuiStatusbar (StatusBar)" uid="89607cc1-f906-48f9-89b7-32c44323591d">
+    <description>This action reads the label of an SAP object and return the value in the response of the Action.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- nodeKey (optional): The node key of a tree.&#xd;
+- itemName (optional): The item name of a tree.&#xd;
+- nodePath (optional): The node path of a tree.&#xd;
+- allNodeKeys (optional): Returns all node keys of a tree with text and path.&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.&#xd;
+- textVariable (optional): The variable name of the text result.&#xd;
+- typeVariable (optional): The variable name of the type result. Only used for status bar. Possible values are  "Success", "Warning" and "Error".</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/sbar"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="sbar"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiStatusbar"/>
+    <responsePageFileDescription>team/vus/imported_@user@path_@r@f@c/%resources%/recorded-responses/res_22958381-a4ff-45ca-9b42-086450cbde9e</responsePageFileDescription>
+    <screenshotFileDescription>team/vus/imported_@user@path_@r@f@c/%resources%/recorded-screenshots/sc_22958381-a4ff-45ca-9b42-086450cbde9e.jpg</screenshotFileDescription>
+</custom-action>

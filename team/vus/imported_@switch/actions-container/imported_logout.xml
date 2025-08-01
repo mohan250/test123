@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_logout" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="3ce9e4e8-23cb-42de-8718-455653269434" weightsEnabled="false">
+    <weighted-embedded-action uid="cdbcf02f-b588-4c76-90d7-e22a6d1ed85f"/>
+</basic-logical-action-container>

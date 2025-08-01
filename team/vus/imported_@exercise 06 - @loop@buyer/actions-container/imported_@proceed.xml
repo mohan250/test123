@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Proceed" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="76ebdee2-b141-4a51-94b2-0b86fa3b8d12" weightsEnabled="false">
+    <weighted-embedded-action uid="3f06af0e-a730-4c59-a23f-cf1acccce1cd"/>
+</basic-logical-action-container>

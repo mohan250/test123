@@ -1,0 +1,14 @@
+<custom-action actionType="SapConnect" isHit="true"
+    name="imported_Connect" uid="92d7a202-d3c5-4fdf-90e1-8bb9afb615c1">
+    <description>This action opens a new SAP connection. The established connection is contextual to the User Path and will be used to perform all the other actions (Click, Press, etc.).
+When connectionString and connectionName parameters are both provided, the connectionString parameter will be used.
+
+Possible parameters are:&#xd;
+- connectionString (optional): The connection parameters to the SAP GUI server. Default value is "/H/192.168.1.1/S3201".&#xd;
+- connectionName (optional): The connection name in SAP Logon.&#xd;
+- overrideLogonFolder (optional): The path to the SAP logon folder. Leave empty for autodetection or setting on Load Generator side.&#xd;
+- noGuiMode (optional): GUI mode disabled. During a "Check User Path" process, the GUI mode is always enabled. When enabled, screenshots are taken on errors. Default value is "true".&#xd;
+- sapBusinessClient (optional): If "true", connect to SAP Business Client instead of SAP Logon. False by default. Default value is "false".</description>
+    <custom-action-parameter name="connectionString" type="TEXT" value="   /SAP_CODEPAGE=1100   /FULLMENU SNC_PARTNERNAME=&quot;&quot; SNC_QOP=-1 /H/194.107.82.233/S/3210 /UPDOWNLOAD_CP=2"/>
+    <responsePageFileDescription>team/vus/imported_@s@a@p @g@u@i recording/%resources%/recorded-responses/res_cdcb5e08-004e-479b-9b7f-727da8101e9e</responsePageFileDescription>
+</custom-action>

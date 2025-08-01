@@ -1,0 +1,1 @@
+<variable-random-number max-value="5" min-value="1" name="imported_UpdateQty" order="1" policy="5" random-seed="false" range="2" uid="29c9c309-a464-463b-9a45-fbedeabea4a1" whenOutOfValues="CYCLE_VALUES"/>

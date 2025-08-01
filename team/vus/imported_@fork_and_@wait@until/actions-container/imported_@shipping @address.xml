@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Shipping Address" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="e20931df-4424-4ff5-8ee6-70ec5e135222" weightsEnabled="false">
+    <weighted-embedded-action uid="ee6a7f8d-4d64-4e28-96bc-b16b06c7ce2c"/>
+    <weighted-embedded-action uid="1b6b6e66-40f3-4877-8837-75975e03f09c"/>
+</basic-logical-action-container>

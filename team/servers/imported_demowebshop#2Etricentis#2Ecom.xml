@@ -1,0 +1,5 @@
+<http-server hostname="demowebshop.tricentis.com" port="443" ssl="true"
+    uid="imported_demowebshop.tricentis.com"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

@@ -1,0 +1,6 @@
+<variable-modifier-action definedMode="1" dest-variable-name=""
+    name="imported_variable_modifier"
+    shared-variable-name="SQ_Order_Number" sharedMode="3"
+    src-variable-name="${Extracted_SQ}"
+    uid="8d49e4f5-6df2-4995-8aab-e5800a9fea31"
+    variable-category="SHARED" variable-name=""/>

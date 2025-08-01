@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Select Blue Jeans" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="cd0e8e36-f72e-4617-ba78-c538401c2534" weightsEnabled="false">
+    <weighted-embedded-action uid="1b6c3106-4d6a-4dc8-b586-31804783ecd8"/>
+</basic-logical-action-container>

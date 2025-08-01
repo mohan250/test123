@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Search Blue Jeans" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="56876f73-5646-421e-9143-4c5f436c9d2b" weightsEnabled="false">
+    <weighted-embedded-action uid="d41e4f88-a7fe-48de-9b8f-c59be6021ac9"/>
+    <weighted-embedded-action uid="c8c7744d-77f2-4197-932e-c73cca2e2c20"/>
+    <weighted-embedded-action uid="3f2ce190-d676-4456-87d8-e800e02f11c0"/>
+</basic-logical-action-container>

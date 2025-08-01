@@ -1,0 +1,43 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/com.snowplowanalytics.snowplow/tp2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/5d790848-0114-41f1-b444-e42092751e7a.zip"
+    slaProfileEnabled="false" thinkTime="9686"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5d790848-0114-41f1-b444-e42092751e7a">
+    <embedded-action>73b2f3c2-0a14-4231-8bed-589d17b17e16</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/com.snowplowanalytics.snowplow/tp2"
+    path="/com.snowplowanalytics.snowplow/tp2" postType="4"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/5d790848-0114-41f1-b444-e42092751e7a.zip"
+    recordedResponseCode="200" responseSize="2"
+    serverUid="imported_collector.cdp.cnn.com" slaProfileEnabled="false"
+    uid="73b2f3c2-0a14-4231-8bed-589d17b17e16" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_646463ce-edab-4b75-953d-48850c99a773</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_646463ce-edab-4b75-953d-48850c99a773.txt</requestContentFileDescription>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN,en-GB;q=0.9,en;q=0.8"/>
+    <header name="cookie" value="countryCode=IN; geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000; stateCode=MH; sp=8a05d84c-6eea-4702-b153-82741e30c6ad; s_ecid=MCMID%7C42800885309200591226353008048359080596; FastAB=0=0372,1=5895,2=5465,3=9049,4=5533,5=9329,6=0950,7=7374,8=1961,9=7421,10=4980,11=1101,12=9128,13=4591,14=1767,15=0932,16=3983,17=9957,18=8017,19=2274"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="content-type" value="application/json; charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="CNN/10542719 CFNetwork/1496.0.7 Darwin/23.5.0"/>
+    <header name="accept" value="text/html, application/x-www-form-urlencoded, text/plain, image/gif"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Wed, 04 Sep 2024 07:12:31 GMT&#xd;
+content-type: text/plain; charset=UTF-8&#xd;
+content-length: 2&#xd;
+set-cookie: sp=8a05d84c-6eea-4702-b153-82741e30c6ad; Expires=Thu, 04 Sep 2025 07:12:31 GMT; Path=/; SameSite=Strict&#xd;
+p3p: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID PSA OUR IND COM NAV STA"&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-credentials: true&#xd;
+server: akka-http/10.2.7</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"schema":"iglu:com.snowplowanalytics.snowplow\/payload_data\/jsonschema\/1-0-4","data":[{"ue_pr":"{\"schema\":\"iglu:com.snowplowanalytics.snowplow\\\/unstruct_event\\\/jsonschema\\\/1-0-0\",\"data\":{\"schema\":\"iglu:com.cnn\\\/GenericTap\\\/jsonschema\\\/1-1-0\",\"data\":{\"traits\":{\"view_name\":\"home\",\"error_message\":\"NULL\",\"enabled_features\":[],\"subscription_type\":\"not_subscribed\",\"interaction\":\"bottom_bar_cnnplus\",\"notifications\":\"off\",\"destination_url\":\"NULL\",\"cnn_uid\":\"NULL\",\"experiment_id\":null,\"app_webview\":false,\"userprivacystate\":\"denied\",\"component_position\":\"NULL\",\"product_id\":\"NULL\",\"component_total\":\"NULL\",\"experience_type\":\"cnn_plus\",\"component_sub_type\":null,\"component_text\":\"preferences\",\"variant_id\":null,\"account_type\":\"anonymous\",\"offer_origination\":\"NULL\"},\"__techPlatform\":\"cnn-ios\",\"component_id\":\"preferences\",\"__viewId\":\"03EC4B2F-B7AA-4383-8F9E-408A79D76AD8\",\"versions\":{\"app_version\":\"24.17.10542719\"},\"component_type\":\"bottom_bar\",\"__loginState\":\"false\",\"__geoData\":{\"city\":\"\",\"zip\":\"\",\"connectionSpeed\":\"\",\"state\":\"\",\"continent\":\"\",\"country\":\"\",\"gmtOffset\":\"5\"},\"__sessionId\":\"365192A8-DE0B-4C3B-A964-08614C06F4D8\",\"url\":null}}}","vp":"750x1334","eid":"78A7D4F6-D58D-47EF-94E3-7801EBE7BF4B","p":"mob","co":"{\"schema\":\"iglu:com.snowplowanalytics.snowplow\\\/contexts\\\/jsonschema\\\/1-0-1\",\"data\":[{\"schema\":\"iglu:com.cnn\\\/user_context\\\/jsonschema\\\/1-2-0\",\"data\":{\"external_ids\":[{\"value\":\"24959280534884019377802254273145269989\",\"type\":\"adobe_ecid\"},{\"value\":\"C0260B92-F877-41B0-AD57-78A58DBBDEC1\",\"type\":\"zaid\"}],\"is_logged_in\":false,\"account_type\":\"anonymous\"}},{\"schema\":\"iglu:com.cnn\\\/global_context\\\/jsonschema\\\/1-3-0\",\"data\":{\"tech_platform\":\"cnn-ios\",\"view_id\":\"03EC4B2F-B7AA-4383-8F9E-408A79D76AD8\",\"versions\":{\"app_version\":\"24.17.10542719\"},\"session_id\":\"365192A8-DE0B-4C3B-A964-08614C06F4D8\"}},{\"schema\":\"iglu:com.cnn\\\/content_context\\\/jsonschema\\\/1-3-0\",\"data\":{\"page_type\":\"section\",\"cms_id\":null,\"hypatia_id\":null,\"source_id\":null,\"page_stellar_id\":\"L19wYWdlcy9jbGdiazkxdWUwMDAwMjZwNzZpdnBoaHAy\",\"canonical_url\":\"https:\\\/\\\/www.cnn.com\",\"vertical\":\"cnn\",\"template_type\":null}},{\"schema\":\"iglu:com.snowplowanalytics.snowplow\\\/mobile_context\\\/jsonschema\\\/1-0-1\",\"data\":{\"osType\":\"ios\",\"osVersion\":\"17.5.1\",\"appleIdfv\":\"83A6898E-6DC0-4478-B8C5-A37F3061EF6B\",\"carrier\":\"--\",\"deviceManufacturer\":\"Apple Inc.\",\"networkType\":\"wifi\",\"deviceModel\":\"iPhone12,8\"}},{\"schema\":\"iglu:com.snowplowanalytics.mobile\\\/application\\\/jsonschema\\\/1-0-0\",\"data\":{\"build\":\"10542719\",\"version\":\"24.17\"}},{\"schema\":\"iglu:com.snowplowanalytics.snowplow\\\/client_session\\\/jsonschema\\\/1-0-1\",\"data\":{\"previousSessionId\":\"e5579518-90de-4fa6-ba63-c92d9cbdb643\",\"storageMechanism\":\"LOCAL_STORAGE\",\"sessionId\":\"93b7e06c-42e4-4070-9c2c-0318eeebfa47\",\"userId\":\"c5d1da6e-9149-4f4c-9c4f-11105192580f\",\"firstEventId\":\"6F4F72A6-9D71-45B8-B42A-E663A5AA7BDC\",\"sessionIndex\":138}}]}","tz":"Asia\/Kolkata","stm":"1725433950919","dtm":"1725433950915","tv":"ios-2.1.1","tna":"appTracker","e":"ue","lang":"en-IN","duid":"C0260B92-F877-41B0-AD57-78A58DBBDEC1","aid":"cnn-ios","res":"750x1334"}]}]]></textPostContent>
+</http-action>

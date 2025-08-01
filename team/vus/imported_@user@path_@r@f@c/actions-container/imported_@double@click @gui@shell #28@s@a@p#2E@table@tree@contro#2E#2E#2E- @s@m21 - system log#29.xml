@@ -1,0 +1,22 @@
+<custom-action actionType="SapDoubleClick" isHit="true"
+    name="imported_DoubleClick GuiShell (SAP.TableTreeContro...- SM21 - system log)" uid="b721ee2a-bf3c-45db-8568-b3c4bc4bab9f">
+    <description>This action simulates a double click action on an SAP object.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- row (optional): The row index of a grid or a table.&#xd;
+- nodeKey (optional): The node key of a tree.&#xd;
+- itemName (optional): The item name of a tree.&#xd;
+- x (optional): The x coordinate when clicking on a picture.&#xd;
+- y (optional): The y coordinate when clicking on a picture.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/cntlIMAGE_CONTAINER/shellcont/shell/shellcont[0]/shell"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="shell"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiShell"/>
+    <custom-action-parameter name="nodeKey" type="TEXT" value="F00080"/>
+    <screenshotFileDescription>team/vus/imported_@user@path_@r@f@c/%resources%/recorded-screenshots/sc_1e46d398-0914-4f4b-b258-19f2f918641a.jpg</screenshotFileDescription>
+</custom-action>

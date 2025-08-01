@@ -1,0 +1,75 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/jpetstore/shop/viewItem.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@exercise 08 - @try@catch/%resources%/recorded-artifacts/356351c9-315d-4e79-a353-53424b2c97f9.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="356351c9-315d-4e79-a353-53424b2c97f9">
+    <embedded-action>6631f7a0-4425-4e8d-9028-66134f93b533</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e8a9b5ac-3c2e-4769-a6f4-6d75f221ca36.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/jpetstore/shop/viewItem.shtml"
+    path="/jpetstore/shop/viewItem.shtml" postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@exercise 08 - @try@catch/%resources%/recorded-artifacts/356351c9-315d-4e79-a353-53424b2c97f9.zip"
+    recordedResponseCode="200" responseSize="3659"
+    serverUid="imported_tri-5cg10762mp" slaProfileEnabled="false"
+    uid="6631f7a0-4425-4e8d-9028-66134f93b533" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9a40f399-f154-4a66-90ca-0d6e3add1faf.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9a40f399-f154-4a66-90ca-0d6e3add1faf.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="1"
+        endsWithSimple="in stock.&lt;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="5" extractTypeAdv="5"
+        extractTypeSimple="5" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Extracted_Stock"
+        refererUid="8e655178-203e-4c5d-a548-9e6cc3d15c71"
+        regExp="&lt;font size=&quot;2&quot;>(.*?)in stock"
+        regExpAdv="&lt;font size=&quot;2&quot;>(.*?)in stock"
+        setDefaultValue="true"
+        startsWithSimple="&lt;font size=&quot;2&quot;>" template="$1$"
+        templateAdv="$1$" uid="ed8e20bd-a473-41ae-9cf3-4f09a01ebb2f" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <assertions>
+        <assertion-content name="Add to Cart" notType="false" pattern="button_add_to_cart.gif"/>
+    </assertions>
+    <parameter encodeName="true" encodeValue="true" name="itemId"
+        recordRawValue="EST-11" separator="=" value="EST-11" valueMode="USE_EXTRACT">
+        <variable-extractor assertionOnNoMatch="true"
+            defaultValue="&lt;NOT FOUND>" displayMode="1"
+            endsWithSimple="" extractFromVarNameAdv=""
+            extractFromVarNameSimple="" extractType="0"
+            extractTypeAdv="0" extractTypeSimple="0" matchNumber="1"
+            matchNumberAdv="1" matchNumberSimple="1"
+            name="nl_extracted_param"
+            refererUid="7ede6aab-5bd0-4f8e-a061-13d2c3d46a1f"
+            regExp="itemId=([^&amp;]*?)&quot;"
+            regExpAdv="itemId=([^&amp;]*?)&quot;" setDefaultValue="true"
+            startsWithSimple="" template="$1$" templateAdv="$1$"
+            uid="ebb2f483-4355-441f-adb6-4a8f4cf3500c" xpath="">
+            <variable-extractor-group extract="true" occurs="1"
+                pattern="" type="4"/>
+        </variable-extractor>
+    </parameter>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="JSESSIONID=6DD33331D957517162F5452D11A628DE"/>
+    <header name="Host" value="tri-5cg10762mp:8080"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://tri-5cg10762mp:8080/jpetstore/shop/viewProduct.shtml?productId=RP-SN-01"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=ISO-8859-1&#xd;
+Content-Length: 3659&#xd;
+Date: Wed, 26 Jun 2024 09:48:52 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

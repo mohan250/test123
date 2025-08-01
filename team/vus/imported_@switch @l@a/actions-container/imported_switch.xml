@@ -1,0 +1,41 @@
+<switch-container condition="${imported_UpdateQty}"
+    name="imported_switch" uid="e8083d86-4fa0-4949-bbd3-3747c19388be">
+    <case-statement case-break="true"
+        case-uid="1b54b390-a2b0-474b-9af7-fad105b63a8b" case-value="1"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="c099fa42-d29c-48b6-951e-ace162270a46"/>
+    </case-statement>
+    <case-statement case-break="true"
+        case-uid="95c63c23-bfd3-4b49-91ce-57604eaa7a11" case-value="2"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="bba5e700-afaa-45b6-8d6c-d6a122d2a608"/>
+    </case-statement>
+    <case-statement case-break="true"
+        case-uid="48ecfe7e-924b-4118-9aaa-03fb5e3b3533" case-value="3"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="7a1cdcff-6c5b-4684-ab32-880a6235c2a4"/>
+    </case-statement>
+    <case-statement case-break="true"
+        case-uid="d206340f-428d-47da-bb94-cb8cd0987059" case-value="4"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="d4ed8a2e-15c0-448d-b3fd-53b1f57074e3"/>
+    </case-statement>
+    <default-statement element-number="1" execution-type="0"
+        pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+        pacingValue="0" slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed by default when no Case equals the Switch value.</description>
+        <weighted-embedded-action uid="4f249c8d-e45c-4726-b2e2-f149d66d95e2"/>
+    </default-statement>
+</switch-container>

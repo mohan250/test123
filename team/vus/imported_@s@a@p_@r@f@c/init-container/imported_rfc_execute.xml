@@ -1,0 +1,14 @@
+<custom-action actionType="RfcActionType" enabled="false" isHit="false"
+    name="imported_rfc_execute" uid="2819297d-db1e-4cbd-a3e1-b532a1246e43">
+    <description>Executes an RFC function.
+
+Parameters:
+- destination: Name of the destination to use.
+- remoteFunction: Name of the function to execute.
+- importParameters: Import parameter names and values. Use , to separate parameters and : to separate names and values. Example: name1:value1,name2:value2.
+- tableParameters: Table parameter names and values. Use , to separate parameters and : to separate names and values. Example: name1:value1,name2:value2.</description>
+    <custom-action-parameter name="destination" type="TEXT" value="RfcDestination1"/>
+    <custom-action-parameter name="remoteFunction" type="TEXT" value="STFC_CONNECTION"/>
+    <custom-action-parameter name="importParameters" type="TEXT" value=""/>
+    <custom-action-parameter name="tableParameters" type="TEXT" value=""/>
+</custom-action>

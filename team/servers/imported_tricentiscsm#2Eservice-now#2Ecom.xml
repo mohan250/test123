@@ -1,0 +1,5 @@
+<http-server hostname="tricentiscsm.service-now.com" port="443"
+    ssl="true" uid="imported_tricentiscsm.service-now.com"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

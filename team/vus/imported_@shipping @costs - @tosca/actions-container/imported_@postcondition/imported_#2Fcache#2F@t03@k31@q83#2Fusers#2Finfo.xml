@@ -1,0 +1,63 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/cache/T03K31Q83/users/info"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/ad24c900-f7a9-45fd-89f5-4f029764a785.zip"
+    slaProfileEnabled="false" thinkTime="1663"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ad24c900-f7a9-45fd-89f5-4f029764a785">
+    <embedded-action>5a0cd35e-daa2-4f7c-bb4f-4c965701b3e1</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/cache/T03K31Q83/users/info"
+    path="/cache/T03K31Q83/users/info" postType="4"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/ad24c900-f7a9-45fd-89f5-4f029764a785.zip"
+    recordedResponseCode="200" responseSize="24"
+    serverUid="imported_edgeapi.slack.com" slaProfileEnabled="false"
+    uid="5a0cd35e-daa2-4f7c-bb4f-4c965701b3e1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c17a5632-439f-43da-8e09-3d1df6842dbf</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c17a5632-439f-43da-8e09-3d1df6842dbf.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true" name="fp"
+        recordRawValue="63" separator="=" value="63" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="_x_num_retries" recordRawValue="0" separator="=" value="0" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="sec-fetch-site" value="same-site"/>
+    <header name="cookie" value="ssb_instance_id=12e6f552-aaff-48d9-8307-5c3b68ead329; tz=330; b=.b6832b73fb850f37513ef21010071ad7; utm=%7B%7D; d-s=1727063914; web_cache_last_updated0fe8890ae8cdcd82138eee63b9bcb17e=1727072095144; d=xoxd-E7%2F5vEPIMJsw0cve9lFkAREQEatsuEa1rDOk7RqDC9c7zn5hHPiHTxLGPf9ibg5BMp1b6bpRiaESDDm0Hppeb3cdoio86bp5AkqmS25AQDd432gCQqUDbMWdx4ZGuQNOnLQdvzN5nhiLzPuA5RglCtANLqcXKL8yS6MHMfq1WAimcv%2BkkWNZ9GA2JqNjxVDqgTcUZO0%3D"/>
+    <header name="accept-language" value="en-US"/>
+    <header name="origin" value="https://app.slack.com"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not;A=Brand&quot;;v=&quot;24&quot;, &quot;Chromium&quot;;v=&quot;128&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="text/plain;charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0.22631; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Slack/4.40.128 Chrome/128.0.6613.84 Electron/32.0.2 Safari/537.36 WindowsStore/10.0.22631 OS_Product/Workstation Servicing_Channel/SAC Sonic Slack_SSB/4.40.128"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-credentials: true&#xd;
+access-control-allow-headers: content-type, authorization, retry-after, x-b3-traceid, x-b3-spanid, x-b3-parentspanid, x-b3-sampled, x-b3-flags&#xd;
+access-control-allow-methods: POST, GET, OPTIONS&#xd;
+access-control-allow-origin: https://app.slack.com&#xd;
+access-control-max-age: 600&#xd;
+cache-control: no-store&#xd;
+content-encoding: gzip&#xd;
+content-type: application/json; charset=utf-8&#xd;
+vary: Origin&#xd;
+x-backend: flannel-prod-bom-7599cfccd5-llmmn,flannelbe-bom-fdpg&#xd;
+date: Wed, 25 Sep 2024 06:43:44 GMT&#xd;
+content-length: 48&#xd;
+x-envoy-upstream-service-time: 1&#xd;
+x-edge-backend: flannel&#xd;
+x-slack-edge-shared-secret-outcome: no-match&#xd;
+server: envoy&#xd;
+via: envoy-edge-bom-qfjulwci</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"token":"xoxc-3649058275-6792816247041-6769425180455-db36fde5943d9b398e42eff91be7f5be6fc40a35109b1caef3b9fe565029b628","check_interaction":true,"include_profile_only_users":true,"updated_ids":{"U06NV76F03X":1727242151,"U06PLTVQA4Q":1727239843}}]]></textPostContent>
+</http-action>

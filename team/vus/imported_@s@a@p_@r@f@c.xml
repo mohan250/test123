@@ -1,0 +1,34 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="imported_SAP_RFC">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+        <weighted-embedded-action uid="587f65a7-b104-4a91-b67e-b5dc71e3a97b"/>
+        <weighted-embedded-action uid="e43d60c9-6f94-444a-a986-2ab887ee3245"/>
+        <weighted-embedded-action uid="e4df76d9-a2cd-4342-be6b-61416bb9198b"/>
+        <weighted-embedded-action uid="2819297d-db1e-4cbd-a3e1-b532a1246e43"/>
+        <weighted-embedded-action uid="6c3f0f92-f7c6-4e5e-a685-3e483f64f94e"/>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="52178c3d-5200-4fdb-8cf5-876e03679ecd"/>
+        <weighted-embedded-action uid="f4d74251-9a73-462c-90b2-626d08fc92e6"/>
+        <weighted-embedded-action uid="bfa3e546-796c-40ad-a66a-8aeda2c6bb04"/>
+        <weighted-embedded-action uid="81d53969-7ee1-4d1b-85ba-244bef37037d"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+        <weighted-embedded-action uid="44e03d4f-8c0c-4cec-a3e0-f8f91b29c772"/>
+        <weighted-embedded-action uid="14a125a7-0164-499d-9395-4aecbd24d099"/>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

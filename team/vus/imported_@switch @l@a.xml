@@ -1,0 +1,35 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="imported_Switch LA">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="c4b4ba1b-d06c-4d65-92d1-ed2cd564a89c"/>
+        <weighted-embedded-action uid="901c285a-0296-4202-8894-c37526e4fa18"/>
+        <weighted-embedded-action uid="6affc864-e1e6-4371-848f-3cbdfeeac4fd"/>
+        <weighted-embedded-action uid="9169e373-230b-4ebf-8387-a166d485a353"/>
+        <weighted-embedded-action uid="2a51ef1b-0475-494b-bb76-3f67ea8537f8"/>
+        <weighted-embedded-action uid="e3ce26e2-1ba2-434f-ae50-8c3fef03402b"/>
+        <weighted-embedded-action uid="e8083d86-4fa0-4949-bbd3-3747c19388be"/>
+        <weighted-embedded-action uid="aebf7aa9-44a5-4046-b3a6-4c4e9ac8cec4"/>
+        <weighted-embedded-action uid="962ab8b5-02c1-4c8b-ade9-488d3a525ba3"/>
+        <weighted-embedded-action uid="6dd4efe4-92f3-4a3b-b844-9fa7070e6f37"/>
+        <weighted-embedded-action uid="2cf8235c-8d13-42fe-bf63-c47b79f9d057"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

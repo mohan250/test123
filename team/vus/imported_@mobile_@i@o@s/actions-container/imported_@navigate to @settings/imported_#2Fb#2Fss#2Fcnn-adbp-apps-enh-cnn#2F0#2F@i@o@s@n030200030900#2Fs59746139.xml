@@ -1,0 +1,158 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/b/ss/cnn-adbp-apps-enh-cnn/0/IOSN030200030900/s59746139"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/e6d41879-8f51-4c85-96cc-12f1489f623d.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e6d41879-8f51-4c85-96cc-12f1489f623d">
+    <embedded-action>dd31b3f5-71ad-4654-a477-a212bd3b4d0e</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=utf-8"
+    eTag="3706850003288031232-4618587223452587408"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Fri, 13 Sep 2024 10:22:24 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="imported_/b/ss/cnn-adbp-apps-enh-cnn/0/IOSN030200030900/s59746139"
+    path="/b/ss/cnn-adbp-apps-enh-cnn/0/IOSN030200030900/s59746139"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/e6d41879-8f51-4c85-96cc-12f1489f623d.zip"
+    recordedResponseCode="200" responseSize="1"
+    serverUid="imported_smetrics.cnn.com" slaProfileEnabled="false"
+    uid="dd31b3f5-71ad-4654-a477-a212bd3b4d0e" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[bmRoPTEmYWFtYj1qOE9kdjZMb25ONHIzYW43TGhEM1daclUxYlVwQWtGa2tpWTFuY0JSOTZ0MlBUSSZhYW1saD0xMiZjLiZhLiZBcHBJRD1DTk4lMjAyNC4xNyUyMCUyODEwNTQyNzE5JTI5JkNhcnJpZXJOYW1lPS0tJkRldmljZU5hbWU9aVBob25lMTIlMkM4Jk9TVmVyc2lvbj1pT1MlMjAxNy41LjEmUmVzb2x1dGlvbj03NTB4MTMzNCZSdW5Nb2RlPUFwcGxpY2F0aW9uJlRpbWVTaW5jZUxhdW5jaD0zNDImLmEmYWxlcnRmcmVxdWVuY3k9bXV0ZSZhcHBuYW1lPWFwcCUzQWNubiUyMC0lMjBpUGhvbmUxMiUyQzgmYXV0aHJlcXVpcmVkPW5vJTIwYXV0aCZidXNpbmVzc3VuaXQ9Y25uJTIwaW50ZXJuYXRpb25hbCZjb250YWluZXJuYW1lPW52cyZjb250ZW50dHlwZT1ub25lJmRhcmttb2RlPWRhcmslMjBtb2RlJTNBb2ZmJmVkaXRpb249aW50ZXJuYXRpb25hbCUzQW52cyZsb2dpbnN0YXR1cz1ub3QlMjBsb2dnZWQtaW4mbm90aWZpY2F0aW9ucz1vZmYmb3B0aW1pemVseT1OVUxMJm9yaWVudGF0aW9uPXBvcnRyYWl0JnBhZ2U9c2V0dGluZ3MlM0FzZXR0aW5ncyZwYWdlYXR0cmlidXRpb249aG9tZSUzQW52cyUzQW52cyUzQW52cyZwYWdldmlldz0xJnByZXZpb3VzcGFnZT1ob21lJTNBaG9tZSZzZGt2ZXJzaW9uPW9pcC0zLjkuMCUzQTI0LjE3JTNBMTA1NDI3MTkmc2VjdGlvbj1zZXR0aW5ncyZzdWJzY3JpYmVkdG9waWNzPSZzdWJzZWN0aW9uPXNldHRpbmdzJnRlbXBsYXRldHlwZT1hZGJwJTNBc2VjdGlvbiUyMGZyb250JnVzZXJhdXRoc3RhdGU9dW5hdXRoZW50aWNhdGVkJnVzZXJwcml2YWN5c3RhdGU9ZGVuaWVkJi5jJmNlPVVURi04JmNwPWZvcmVncm91bmQmbWlkPTI0OTU5MjgwNTM0ODg0MDE5Mzc3ODAyMjU0MjczMTQ1MjY5OTg5JnBhZ2VOYW1lPXNldHRpbmdzJTNBc2V0dGluZ3MmdD0wMCUyRjAwJTJGMDAwMCUyMDAwJTNBMDAlM0EwMCUyMDAlMjAtMzMwJnRzPTE3MjU0MzM5NTE=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_6e692528-66a0-4454-927e-8613fa546234.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6e692528-66a0-4454-927e-8613fa546234.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="ndh"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="aamb"
+        recordRawValue="j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI"
+        separator="="
+        value="j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="aamlh"
+        recordRawValue="12" separator="=" value="12" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="c."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="a."
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="AppID"
+        recordRawValue="CNN%2024.17%20%2810542719%29" separator="="
+        value="CNN 24.17 (10542719)" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="CarrierName"
+        recordRawValue="--" separator="=" value="--" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="DeviceName"
+        recordRawValue="iPhone12%2C8" separator="=" value="iPhone12,8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="OSVersion"
+        recordRawValue="iOS%2017.5.1" separator="=" value="iOS 17.5.1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="Resolution"
+        recordRawValue="750x1334" separator="=" value="750x1334" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="RunMode"
+        recordRawValue="Application" separator="=" value="Application" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="TimeSinceLaunch" recordRawValue="342" separator="="
+        value="342" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".a"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="alertfrequency" recordRawValue="mute" separator="="
+        value="mute" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="appname"
+        recordRawValue="app%3Acnn%20-%20iPhone12%2C8" separator="="
+        value="app:cnn - iPhone12,8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="authrequired"
+        recordRawValue="no%20auth" separator="=" value="no auth" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="businessunit"
+        recordRawValue="cnn%20international" separator="="
+        value="cnn international" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="containername"
+        recordRawValue="nvs" separator="=" value="nvs" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="contenttype"
+        recordRawValue="none" separator="=" value="none" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="darkmode"
+        recordRawValue="dark%20mode%3Aoff" separator="="
+        value="dark mode:off" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="edition"
+        recordRawValue="international%3Anvs" separator="="
+        value="international:nvs" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="loginstatus"
+        recordRawValue="not%20logged-in" separator="="
+        value="not logged-in" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="notifications"
+        recordRawValue="off" separator="=" value="off" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="optimizely"
+        recordRawValue="NULL" separator="=" value="NULL" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orientation"
+        recordRawValue="portrait" separator="=" value="portrait" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="page"
+        recordRawValue="settings%3Asettings" separator="="
+        value="settings:settings" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="pageattribution" recordRawValue="home%3Anvs%3Anvs%3Anvs"
+        separator="=" value="home:nvs:nvs:nvs" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageview"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="previouspage"
+        recordRawValue="home%3Ahome" separator="=" value="home:home" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sdkversion"
+        recordRawValue="oip-3.9.0%3A24.17%3A10542719" separator="="
+        value="oip-3.9.0:24.17:10542719" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="section"
+        recordRawValue="settings" separator="=" value="settings" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="subscribedtopics" recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="subsection"
+        recordRawValue="settings" separator="=" value="settings" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="templatetype"
+        recordRawValue="adbp%3Asection%20front" separator="="
+        value="adbp:section front" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="userauthstate"
+        recordRawValue="unauthenticated" separator="="
+        value="unauthenticated" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="userprivacystate" recordRawValue="denied" separator="="
+        value="denied" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name=".c"
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ce"
+        recordRawValue="UTF-8" separator="=" value="UTF-8" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="cp"
+        recordRawValue="foreground" separator="=" value="foreground" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="mid"
+        recordRawValue="24959280534884019377802254273145269989"
+        separator="=" value="24959280534884019377802254273145269989" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageName"
+        recordRawValue="settings%3Asettings" separator="="
+        value="settings:settings" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="t"
+        recordRawValue="00%2F00%2F0000%2000%3A00%3A00%200%20-330"
+        separator="=" value="00/00/0000 00:00:00 0 -330" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ts"
+        recordRawValue="1725433951" separator="=" value="1725433951" valueMode="USE_VALUE"/>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (iPhone; CPU OS 17_5_1 like Mac OS X; en_IN)"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-allow-origin: *&#xd;
+date: Wed, 04 Sep 2024 07:12:31 GMT&#xd;
+expires: Tue, 03 Sep 2024 07:12:31 GMT&#xd;
+last-modified: Thu, 05 Sep 2024 07:12:31 GMT&#xd;
+pragma: no-cache&#xd;
+p3p: CP="This is not a P3P policy"&#xd;
+server: jag&#xd;
+etag: 3705341196679774208-4618549880858922255&#xd;
+vary: *&#xd;
+content-type: text/html;charset=utf-8&#xd;
+content-length: 1&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains&#xd;
+cache-control: no-cache, no-store, max-age=0, no-transform, private&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-content-type-options: nosniff</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

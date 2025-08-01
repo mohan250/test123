@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Select Category" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="1b11eaae-94d3-4b6f-b25a-735e9ac63869" weightsEnabled="false">
+    <weighted-embedded-action uid="5af91548-bb9c-4ceb-95de-7309f2e65eb0"/>
+</basic-logical-action-container>

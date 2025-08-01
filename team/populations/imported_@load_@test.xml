@@ -1,0 +1,18 @@
+<population uid="imported_Load_Test">
+    <description>Sample demo of load testing</description>
+    <split cache="2" factor="100.0" virtualUserUid="imported_Load Testing demo">
+        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
+            connections="6" cookies="true" http2="true" name="browser.recorded"/>
+        <wan-emulation-profile averageDownloadBandwidth="6Mbps"
+            averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
+            averageUploadBandwidth="6Mbps" averageUploadLatency="0ms"
+            averageUploadPacketLoss="0%" downloadBandwidth="10Mbps"
+            downloadLatency="0ms" downloadPacketLoss="0%"
+            isRadio="false" name="Ethernet 10M"
+            poorDownloadBandwidth="3Mbps" poorDownloadLatency="0ms"
+            poorDownloadPacketLoss="0%" poorUploadBandwidth="3Mbps"
+            poorUploadLatency="0ms" poorUploadPacketLoss="0%"
+            signalStrength="GOOD" uploadBandwidth="10Mbps"
+            uploadLatency="0ms" uploadPacketLoss="0%"/>
+    </split>
+</population>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Enter Demoweb shop" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="74aa41c0-f805-40ae-90fe-eb69980c4365" weightsEnabled="false">
+    <weighted-embedded-action uid="e0e4a378-aa15-4b35-b52e-1f607c951897"/>
+</basic-logical-action-container>

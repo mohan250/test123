@@ -1,0 +1,26 @@
+<switch-container condition="${paymentorder_PO}" name="switch" uid="7f4a5498-39b4-4827-99a4-9eb170427e23">
+    <case-statement case-break="true"
+        case-uid="23f1db82-2a4b-4b8a-9479-203c1d2597fa" case-value="1"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="ed788dbc-0cd3-42cb-9a7f-bc7e6683097b"/>
+        <weighted-embedded-action uid="8171d6a4-9fb9-49e1-99fb-7ca1cf1ba405"/>
+    </case-statement>
+    <case-statement case-break="true"
+        case-uid="764a21f9-a7f6-4f8d-9b90-ffc44f5fb05f" case-value="2"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed when the Case equals the Switch value.</description>
+        <weighted-embedded-action uid="bcc02f1e-33d2-4911-9a00-38aaf7f77f21"/>
+        <weighted-embedded-action uid="a2d38f62-6d14-4573-98b4-927a9b4d9770"/>
+    </case-statement>
+    <default-statement element-number="1" execution-type="0"
+        pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+        pacingValue="0" slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed by default when no Case equals the Switch value.</description>
+        <weighted-embedded-action uid="7125ff07-fb21-4187-b53e-bfd368c5dec0"/>
+    </default-statement>
+</switch-container>

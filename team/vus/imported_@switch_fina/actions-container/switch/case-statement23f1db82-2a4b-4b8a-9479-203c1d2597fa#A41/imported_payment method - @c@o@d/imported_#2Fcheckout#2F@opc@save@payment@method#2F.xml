@@ -1,0 +1,64 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/checkout/OpcSavePaymentMethod/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@switch_fina/%resources%/recorded-artifacts/64f27666-85ef-48a8-b5fe-a629cbb038f4.zip"
+    slaProfileEnabled="false" thinkTime="19943"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="64f27666-85ef-48a8-b5fe-a629cbb038f4">
+    <embedded-action>32b28d33-b2f7-40e9-8fe2-53f5ff755fb0</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_97eba660-6e99-4d0f-b79d-2e944f4bd6b4.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/checkout/OpcSavePaymentMethod/"
+    path="/checkout/OpcSavePaymentMethod/" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/imported_@switch_fina/%resources%/recorded-artifacts/64f27666-85ef-48a8-b5fe-a629cbb038f4.zip"
+    recordedResponseCode="200" responseSize="858"
+    serverUid="imported_demowebshop.tricentis.com"
+    slaProfileEnabled="false" uid="32b28d33-b2f7-40e9-8fe2-53f5ff755fb0" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[cGF5bWVudG1ldGhvZD1QYXltZW50cy5DYXNoT25EZWxpdmVyeQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_d5d89fe9-f08c-45af-9ea0-6be815ec3054</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d5d89fe9-f08c-45af-9ea0-6be815ec3054.txt</requestContentFileDescription>
+    <assertions>
+        <assertion-content name="Verify Message" notType="false" pattern="You will pay by COD"/>
+    </assertions>
+    <parameter encodeName="true" encodeValue="true" name="paymentmethod"
+        recordRawValue="Payments.CashOnDelivery" separator="="
+        value="${PO_Nu}" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-1722924245930-14833; optimizelyEndUserId=oeu1722924246336r0.0956756007818027; _biz_uid=03dbc53231d240b3aa64ce50f04f0202; _fbp=fb.1.1722924249170.370144491333170575; PAPVisitorId=bDL4l3UXVHwvWsRocuMnBitb5tWp8dP4; ajs_anonymous_id=2fb7786b-d46e-442a-833d-15c20c19c152; _ga_PS5H2WM46K=GS1.1.1725878378.1.1.1725878391.0.0.0; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; OptanonAlertBoxClosed=2024-09-12T12:41:37.837Z; __utmz=78382081.1726641671.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _vwo_uuid=D39E9B4EF07284896344A8D20694A4DAA; _hjSessionUser_3539777=eyJpZCI6ImY0OGYyYWYwLWRkZWYtNTc0ZC05MGUwLTZhNzYyMzU2ZTBmMCIsImNyZWF0ZWQiOjE3MjcwNzc0NzA5NjYsImV4aXN0aW5nIjp0cnVlfQ==; _clck=vgs5po%7C2%7Cfq8%7C0%7C1713; _sp_id.2651=9ae6d09e-a3cb-43c1-861d-ffa6da784614.1725878378.2.1729600257.1725878378.f8c3f56c-14cb-485a-8a8d-57550d70cfba; _ga_489D1QT6C1=GS1.1.1731498502.9.0.1731498502.60.0.0; _biz_ABTestA=%5B-788736289%2C-1893783025%2C-1267324901%2C906545904%5D; _vwo_uuid_v2=D39E9B4EF07284896344A8D20694A4DAA|6f04d3ba0972633fc4b1ac151d21ad26; apt.uid=AP-EZ7EPHK4AIVE-2-1742555315965-42311139.0.2.0e9003a4-cf34-4531-97b7-35b29700a007; _ga_NW0CQ3B4CY=GS2.2.s1746511316$o7$g1$t1746511321$j55$l0$h0; _ga_5VTS3QGX40=GS2.2.s1747725449$o9$g0$t1747725449$j60$l0$h0$dmIcCSwz0CPf-zoXqpI0HU9GCjFnQf0zFMQ; _gcl_au=1.1.1609306382.1750947806; _biz_nA=74; _biz_pendingA=%5B%5D; _vwo_ds=3%241751258354%3A81.33156003%3A%3A; _vis_opt_s=2%7C; OptanonConsent=isGpcEnabled=0&amp;datestamp=Mon+Jun+30+2025+10%3A09%3A45+GMT%2B0530+(India+Standard+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;consentId=9d912eea-d663-4529-8ad2-1410a276b144&amp;interactionCount=2&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0003%3A1%2CBG1%3A1%2CC0002%3A1%2CC0005%3A1%2CC0004%3A1&amp;AwaitingReconsent=false&amp;geolocation=IN%3BMH; _uetvid=af941f40797f11efab764f88e0c750e2|1f6d84w|1751258387327|2|1|bat.bing-int.com/p/insights/c/y; _ga_4GZTBFVFZ1=GS2.2.s1751948626$o76$g0$t1751948626$j60$l0$h0; _ga_BQMV2S0RM0=GS2.1.s1752724676$o396$g0$t1752724676$j60$l0$h0; _ga=GA1.1.1766308048.1722833430; _ga_65NTGYMYHS=GS2.1.s1753251384$o165$g1$t1753251395$j49$l0$h0; ARRAffinity=c70bdcb91dec63aaca09567ddbbdf6da6735833fc33e32dcfc3a6c06d60d8ced; ARRAffinitySameSite=c70bdcb91dec63aaca09567ddbbdf6da6735833fc33e32dcfc3a6c06d60d8ced; __utma=78382081.1766308048.1722833430.1751374382.1753341946.32; __utmc=78382081; __utmt=1; ASP.NET_SessionId=htxfnbruiz5dvmxmk5t2cnsz; NOPCOMMERCE.AUTH=EAE3A8E1EE7C8947D1F36F2092DCF52AB8529C5848A6F5DCE086369DBCACC4B979168FBB4069D10E8897C1D4AC7C56885C49CA5739427A5B0177BF67E41A9EAA6E465BE866FAF4626BC711B3497586CA78F57B00A435187A0E5EBA8FFAE6E91811217B62DAA628A8133289D463529DD3FFD4DCFE28E24960016511A5A2C75184032378F6B62237384146016967A5234C25E58024CAE770887D06F7DFECE65C6F47D12D8B6F458FF840B230B566174954460B0B4EC2FE2FF4AB259838C018EB26; Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; __utmb=78382081.14.10.1753341946"/>
+    <header name="Host" value="demowebshop.tricentis.com"/>
+    <header name="Origin" value="https://demowebshop.tricentis.com"/>
+    <header name="Referer" value="https://demowebshop.tricentis.com/onepagecheckout"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 481&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Date: Thu, 24 Jul 2025 07:33:12 GMT&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+Cache-Control: private&#xd;
+Content-Encoding: gzip&#xd;
+Set-Cookie: Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; expires=Fri, 24-Jul-2026 07:33:12 GMT; path=/; HttpOnly&#xd;
+Vary: Accept-Encoding&#xd;
+X-AspNetMvc-Version: 5.2&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

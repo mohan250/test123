@@ -1,0 +1,5 @@
+<http-server hostname="http://tri-5cg10762mp:8080/jpetstore/" port="80"
+    ssl="false" uid="imported_http://tri-5cg10762mp:8080/jpetstore/"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

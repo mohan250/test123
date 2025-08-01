@@ -1,0 +1,4 @@
+<variable-file delimiters=";" filename="Users-a01ac5b7-656d-4bf0-8855-8bb159b98f8d.csv" name="imported_Users" offset="1" order="3" policy="4" range="1" uid="ac0249dd-77c8-410d-9dac-27dc32fb15b2" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="Password" number="1"/>
+<column name="Username" number="0"/>
+</variable-file>

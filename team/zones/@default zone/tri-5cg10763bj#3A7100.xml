@@ -1,0 +1,6 @@
+<lg-host browserBasedSupport="false" citrixSupport="false"
+    hostname="tri-5cg10763bj:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="c3f95fde-4712-4d22-a336-1a51ebfbf8fa" version="">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

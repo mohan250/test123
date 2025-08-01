@@ -1,0 +1,19 @@
+<custom-action actionType="SapExpand" isHit="false"
+    name="imported_Expand GuiShell (SAP.TableTreeContro...- SM21 - system log)" uid="1a8739f0-00bf-4f77-b426-46f1cb120592">
+    <description>This action simulates an expand action on an SAP tree object.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- nodeKey (optional): The node key of a tree.&#xd;
+- nodeLabel (optional): To identify a tree node via its label.&#xd;
+- indexes (optional): The indexes separated by "/" to reference a tree path. Example: 0/1/1/2.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[0]/usr/cntlIMAGE_CONTAINER/shellcont/shell/shellcont[0]/shell"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="shell"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiShell"/>
+    <custom-action-parameter name="nodeKey" type="TEXT" value="F00046"/>
+    <screenshotFileDescription>team/vus/imported_@user@path_@r@f@c/%resources%/recorded-screenshots/sc_4f806de0-19ed-4130-8282-a9e75e852679.jpg</screenshotFileDescription>
+</custom-action>

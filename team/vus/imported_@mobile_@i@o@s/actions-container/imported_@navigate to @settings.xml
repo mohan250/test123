@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Navigate to Settings" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="9b068fb8-43b9-44a9-be28-8999adf6f38f" weightsEnabled="false">
+    <weighted-embedded-action uid="5d790848-0114-41f1-b444-e42092751e7a"/>
+    <weighted-embedded-action uid="3525719d-c11e-4f2c-8a16-d595bfdc2b2a"/>
+    <weighted-embedded-action uid="e6d41879-8f51-4c85-96cc-12f1489f623d"/>
+</basic-logical-action-container>

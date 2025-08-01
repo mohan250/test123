@@ -1,0 +1,1 @@
+<variable-random-string max-lenght="10" min-lenght="5" name="imported_RndStr" order="1" policy="1" random-seed="false" range="2" uid="1d6e5053-3d96-43f4-8a1a-c314bd272aca" whenOutOfValues="CYCLE_VALUES"/>

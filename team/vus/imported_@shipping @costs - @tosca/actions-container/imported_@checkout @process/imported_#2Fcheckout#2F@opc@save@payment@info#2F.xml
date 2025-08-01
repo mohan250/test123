@@ -1,0 +1,126 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/checkout/OpcSavePaymentInfo/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/e1ca63e2-3fcb-4c47-a04c-cb7d14d9ba46.zip"
+    slaProfileEnabled="false" thinkTime="3117"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e1ca63e2-3fcb-4c47-a04c-cb7d14d9ba46">
+    <embedded-action>819f9a19-46ea-41f9-8a30-54013389e404</embedded-action>
+    <embedded-action>e55d28b8-6b95-4ec9-9b7e-1bd271ff3233</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/checkout/OpcSavePaymentInfo/"
+    path="/checkout/OpcSavePaymentInfo/" postCharset="UTF-8"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/e1ca63e2-3fcb-4c47-a04c-cb7d14d9ba46.zip"
+    recordedResponseCode="200" responseSize="9924"
+    serverUid="imported_demowebshop.tricentis.com"
+    slaProfileEnabled="false" uid="819f9a19-46ea-41f9-8a30-54013389e404" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Q3JlZGl0Q2FyZFR5cGU9VmlzYSZDYXJkaG9sZGVyTmFtZT1CYXJiYXJhK0dvcmRvbiZDYXJkTnVtYmVyPTQ0ODU1NjQwNTk0ODkzNDUmRXhwaXJlTW9udGg9NCZFeHBpcmVZZWFyPTIwMjQmQ2FyZENvZGU9MTIz]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_235d7813-5898-4887-9a64-f3a872b7fef8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_235d7813-5898-4887-9a64-f3a872b7fef8.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="CreditCardType" recordRawValue="Visa" separator="="
+        value="Visa" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="CardholderName" recordRawValue="Barbara+Gordon"
+        separator="=" value="Barbara Gordon" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="CardNumber"
+        recordRawValue="4485564059489345" separator="="
+        value="4485564059489345" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ExpireMonth"
+        recordRawValue="4" separator="=" value="4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="ExpireYear"
+        recordRawValue="2024" separator="=" value="2024" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="CardCode"
+        recordRawValue="123" separator="=" value="123" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded; charset=UTF-8"/>
+    <header name="Cookie" value="_mkto_trk=id:070-PYT-570&amp;token:_mch-tricentis.com-1722924245930-14833; optimizelyEndUserId=oeu1722924246336r0.0956756007818027; _biz_uid=03dbc53231d240b3aa64ce50f04f0202; _gcl_au=1.1.2116208602.1722924249; _fbp=fb.1.1722924249170.370144491333170575; PAPVisitorId=bDL4l3UXVHwvWsRocuMnBitb5tWp8dP4; _ga_NW0CQ3B4CY=GS1.2.1723196913.1.1.1723196920.53.0.0; ajs_anonymous_id=2fb7786b-d46e-442a-833d-15c20c19c152; _sp_id.2651=9ae6d09e-a3cb-43c1-861d-ffa6da784614.1725878378.1.1725878378.1725878378.f775283d-e49f-4e6f-90b4-b31de2f743b1; _clck=vgs5po%7C2%7Cfp1%7C0%7C1713; _ga_PS5H2WM46K=GS1.1.1725878378.1.1.1725878391.0.0.0; _biz_flagsA=%7B%22Version%22%3A1%2C%22Mkto%22%3A%221%22%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%2C%22Frm%22%3A%221%22%7D; _biz_ABTestA=%5B-788736289%2C-1893783025%5D; _ga_489D1QT6C1=GS1.1.1726144164.8.1.1726144415.49.0.0; OptanonAlertBoxClosed=2024-09-12T12:41:37.837Z; _biz_nA=25; _biz_pendingA=%5B%5D; __utmz=78382081.1726641671.2.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _ga_BQMV2S0RM0=GS1.1.1727071843.56.1.1727073238.0.0.0; _vwo_uuid=D39E9B4EF07284896344A8D20694A4DAA; _vwo_ds=3%241727077467%3A54.54020296%3A%3A; _vis_opt_s=1%7C; _hjSessionUser_3539777=eyJpZCI6ImY0OGYyYWYwLWRkZWYtNTc0ZC05MGUwLTZhNzYyMzU2ZTBmMCIsImNyZWF0ZWQiOjE3MjcwNzc0NzA5NjYsImV4aXN0aW5nIjpmYWxzZX0=; OptanonConsent=isGpcEnabled=0&amp;datestamp=Mon+Sep+23+2024+13%3A14%3A30+GMT%2B0530+(India+Standard+Time)&amp;version=202401.1.0&amp;browserGpcFlag=0&amp;isIABGlobal=false&amp;hosts=&amp;consentId=9d912eea-d663-4529-8ad2-1410a276b144&amp;interactionCount=2&amp;landingPath=NotLandingPage&amp;groups=C0001%3A1%2CC0003%3A1%2CBG1%3A1%2CC0002%3A1%2CC0005%3A1%2CC0004%3A1&amp;AwaitingReconsent=false&amp;geolocation=IN%3BMH; _uetvid=af941f40797f11efab764f88e0c750e2; _gid=GA1.2.1286122148.1727242088; _ga=GA1.2.1766308048.1722833430; _ga_4GZTBFVFZ1=GS1.2.1727243790.30.1.1727244813.60.0.0; _ga_65NTGYMYHS=GS1.1.1727242088.273.1.1727245142.0.0.0; ARRAffinity=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; ARRAffinitySameSite=215729d76f6e9346a3ca0af641517499b9bd27d0362c4cf136fc5677103585ca; __utma=78382081.1766308048.1722833430.1727088981.1727245345.7; __utmc=78382081; __utmt=1; NOPCOMMERCE.AUTH=66E98CF97882E96EA8F64EBA436AE225CF24EBC108B38815DEC979EE7AD3CA400A31BFBE2E59A8F61A7CF4D9C7E3CED211C11315C21039F7257968DFA1F10009956A30500CFB9B1BAB263A33C951DCA2D96C75786C1AE3D25AD25F8E9B8CD85713B8F06299ABDF3FE03AF808F8039987C4B29C25111FEAC29AE421205E8DAF6193F53584A94E11D5BDBD0D569B46823A25D7868E3DDC5167B273628EE69B47561F5D233006BE07C56311DB8E18B2F8921FAAB40750699EEC5ADCA5EAB769CE33; Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; NopCommerce.RecentlyViewedProducts=RecentlyViewedProductIds=36&amp;RecentlyViewedProductIds=72; __utmb=78382081.10.10.1727245345"/>
+    <header name="Host" value="demowebshop.tricentis.com"/>
+    <header name="Origin" value="https://demowebshop.tricentis.com"/>
+    <header name="Referer" value="https://demowebshop.tricentis.com/onepagecheckout"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"/>
+    <header name="X-Requested-With" value="XMLHttpRequest"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Length: 1950&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Date: Wed, 25 Sep 2024 06:43:37 GMT&#xd;
+Server: Microsoft-IIS/10.0&#xd;
+Cache-Control: private&#xd;
+Content-Encoding: gzip&#xd;
+Set-Cookie: Nop.customer=bc9d3b99-5146-47f2-b94f-30a0a5b58d7c; expires=Thu, 25-Sep-2025 06:43:37 GMT; path=/; HttpOnly&#xd;
+Set-Cookie: ASP.NET_SessionId=jtoeq1rpv4aofusyajrjkwu1; path=/; HttpOnly; SameSite=Lax&#xd;
+Vary: Accept-Encoding&#xd;
+X-AspNetMvc-Version: 5.2&#xd;
+X-AspNet-Version: 4.0.30319&#xd;
+X-Powered-By: ASP.NET</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/api/now/ui/presence"
+    path="/api/now/ui/presence" postType="4"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/e1ca63e2-3fcb-4c47-a04c-cb7d14d9ba46.zip"
+    recordedResponseCode="200" responseSize="15852"
+    serverUid="imported_tricentiscsm.service-now.com"
+    slaProfileEnabled="false" uid="e55d28b8-6b95-4ec9-9b7e-1bd271ff3233" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_59f20d88-3a2b-44dd-a7f9-1d1d44583012</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_59f20d88-3a2b-44dd-a7f9-1d1d44583012.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="content-type" value="application/json"/>
+    <header name="Cookie" value="glide_user_route=glide.57a391004416e3f061520f1b62c59a80; BIGipServerpool_tricentiscsm=0e37fdd7d6c48569f5cdacb31d0ec853; glide_node_id_for_js=7a205fb453ffa5205a5f99fa703baf73a982d8fe819b15242384f00d450e3357; glide_sso_id=11e4ccb0c3301a905b76771d7a01314c; JSESSIONID=278A66B2E8962944C072BDDE5EA90BDE; glide_user_activity=U0N2M18xOnFNWW1NNHBPcWtJbCtNOHY0YkZ6Sy83MnVuUVR0aWJmVDBBbmtBdTJLVkE9OlNwa3JSRDhSVVllNVh2d0hVc2I3UmVlbkY4djVGTzBUUFRKVUFqZTZOTDg9; glide_session_store=0E6CFCAA83389AD0F6CB9B65EEAAD3AE; BAYEUX_BROWSER=9ywvwxk09k7d2u0d; __CJ_g_startTime=%221727244955476%22"/>
+    <header name="Host" value="tricentiscsm.service-now.com"/>
+    <header name="now-ui-interaction" value="nkbbwuul9120-2365"/>
+    <header name="now-ux-interaction" value="nkbbwuul9120-5473"/>
+    <header name="Referer" value="https://tricentiscsm.service-now.com/now/nav/ui/classic/params/target/u_downloads_list.do%3Fsysparm_first_row%3D1%26sysparm_query%3Dsys_class_name%253du_downloads%255eGOTOname%253e%253dtosca%2Bserver%26sysparm_query_encoded%3Dsys_class_name%253du_downloads%255eGOTOname%253e%253dtosca%2Bserver%26sysparm_view%3D"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"/>
+    <header name="x-transaction-source" value="Interface=WEB,Interface-Type=Configurable Workspace,Interface-Name=Unified Navigation App,Interface-SysID=a84adaf4c700201072b211d4d8c260b7,Interface-URI=/now/nav/ui/classic/params/target/u_downloads_list.do%3Fsysparm_first_row%3D1%26sysparm_query%3Dsys_class_name%253du_downloads%255eGOTOname%253e%253dtosca%2Bserver%26sysparm_query_encoded%3Dsys_class_name%253du_downloads%255eGOTOname%253e%253dtosca%2Bserver%26sysparm_view%3D"/>
+    <header name="x-usertoken" value="4e6cfcaa83389ad0f6cb9b65eeaad3ae0f2067d6308a08703a6de83b6f44c6358383db37"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: snow_adc&#xd;
+Date: Wed, 25 Sep 2024 06:43:38 GMT&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Set-Cookie: BIGipServerpool_tricentiscsm=0e37fdd7d6c48569f5cdacb31d0ec853; httponly; secure; path=/; SameSite=None&#xd;
+Server-Timing: sem_wait;dur=0, sesh_wait;dur=0&#xd;
+Content-Encoding: gzip&#xd;
+Set-Cookie: glide_node_id_for_js=7a205fb453ffa5205a5f99fa703baf73a982d8fe819b15242384f00d450e3357; Path=/; secure; SameSite=None&#xd;
+X-Is-Logged-In: true&#xd;
+X-Transaction-ID: 6e03052ed0aa&#xd;
+Set-Cookie: glide_session_store=0E6CFCAA83389AD0F6CB9B65EEAAD3AE; Max-Age=7200; Expires=Wed, 25-Sep-2024 08:43:38 GMT; Path=/; HttpOnly; secure; SameSite=None&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Pragma: no-store,no-cache&#xd;
+Cache-Control: no-cache,no-store,must-revalidate,max-age=-1&#xd;
+Expires: 0&#xd;
+Strict-Transport-Security: max-age=63072000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

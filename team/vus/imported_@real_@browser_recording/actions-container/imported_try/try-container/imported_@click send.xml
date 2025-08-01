@@ -1,0 +1,12 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Click send" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="8cd6419d-8c1d-4485-a91c-3878d5dad77f" weightsEnabled="false">
+    <weighted-embedded-action uid="2c651ac9-052f-4e9b-be8a-f8ebcb297b72"/>
+    <weighted-embedded-action uid="81f5dd11-b946-43dc-94b9-6847887e849c"/>
+    <weighted-embedded-action uid="d5ff024e-b439-4fe6-af58-a57ef14048ac"/>
+    <weighted-embedded-action uid="9d6fdbcc-8c24-422a-bdc0-1230db237bdc"/>
+    <weighted-embedded-action uid="990cb5de-8c8d-41cc-8cf5-8a2d6188c449"/>
+    <weighted-embedded-action uid="b2c47e2f-b19f-45c8-a753-eda5070297b9"/>
+    <weighted-embedded-action uid="3f008c2e-74ba-42e9-affa-699101ea0566"/>
+</basic-logical-action-container>

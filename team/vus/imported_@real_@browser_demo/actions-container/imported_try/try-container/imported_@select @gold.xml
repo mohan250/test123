@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Select Gold" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="7904be6d-f7ce-4cfe-a0a2-b8e3a8b2e295" weightsEnabled="false">
+    <weighted-embedded-action uid="2fe5f064-eceb-4d44-98a7-32024ea4f0ca"/>
+    <weighted-embedded-action uid="5a9d3239-2ae0-45f6-87b2-14d0c67f5197"/>
+</basic-logical-action-container>

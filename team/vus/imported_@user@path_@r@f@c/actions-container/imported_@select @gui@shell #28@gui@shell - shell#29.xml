@@ -1,0 +1,31 @@
+<custom-action actionType="SapSelect" isHit="true"
+    name="imported_Select GuiShell (GuiShell - shell)" uid="6df1e389-d398-4ff6-b2d6-96072e853e48">
+    <description>This action simulates a select action on an SAP radio button, check box, combo box, tree or grid.
+
+Possible parameters are:&#xd;
+- objectId (optional): The SAP GUI object identifier. Default value is "ses[0]/".&#xd;
+- optionValue (optional): The value of a combo box or a check box. For a check box, leave the value empty or set the value to "true" to check it or set the value to "false" to uncheck it&#xd;
+- value (optional): The value of a grid or a table.&#xd;
+- column (optional): The column index of a table or the column name of a grid.&#xd;
+- rows (optional): The row indexes of a grid separated by ",". Ex: 1,2.&#xd;
+- absoluteRow (optional): The absolute row index of a table.&#xd;
+- currentCellRow (optional): The index of the current cell of a grid.&#xd;
+- currentCellColumn (optional): The name of the current column of a grid.&#xd;
+- pressColumnHeader (optional): The column name of a grid.&#xd;
+- selectionChanged (optional): If "true", perform a selectionChanged on the grid.&#xd;
+- start (optional): The start index when selecting lines of a text edit.&#xd;
+- end (optional): The end index when selecting lines of a text edit.&#xd;
+- all (optional): If "true", selects the entire grid. Default value is "false".&#xd;
+- topNode (optional): If "true", perform a setTopNode on the tree.&#xd;
+- selectionInterval (optional): An interval of two dates separated by ",": YYYYMMDD,YYYYMMDD to select in a calendar.&#xd;
+- firstVisibleRow (optional): The first visible row in a grid.&#xd;
+- ignoreErrors (optional): If set to "true", the action won't be in error if object is not found, type is not supported or an exception is thrown. Default value is "false".&#xd;
+- windowId (optional): The SAP GUI window identifier.&#xd;
+- objectName (optional): The SAP GUI object name.&#xd;
+- objectType (optional): The SAP GUI object type.</description>
+    <custom-action-parameter name="objectId" type="TEXT" value="ses[0]/wnd[1]/usr/cntlCONTAINER/shellcont/shell"/>
+    <custom-action-parameter name="objectName" type="TEXT" value="shell"/>
+    <custom-action-parameter name="objectType" type="TEXT" value="GuiShell"/>
+    <custom-action-parameter name="selectionInterval" type="TEXT" value="20250605,20250605"/>
+    <screenshotFileDescription>team/vus/imported_@user@path_@r@f@c/%resources%/recorded-screenshots/sc_5a9dd9a7-4b40-4879-a685-ddfec06f24f3.jpg</screenshotFileDescription>
+</custom-action>

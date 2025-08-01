@@ -1,0 +1,1 @@
+﻿logger.info(jslib(5, 10))

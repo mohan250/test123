@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_JPetStore Demo" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="c05ece57-b817-4923-aa3e-19d438e8f0df" weightsEnabled="false">
+    <weighted-embedded-action uid="5436dde1-c4b8-4c8c-881b-1866eb205fc3"/>
+    <weighted-embedded-action uid="a7a9e36d-319e-4482-bc88-e03f5c8293e6"/>
+    <weighted-embedded-action uid="c392cd7a-f97a-4b0d-8c2b-85150038e334"/>
+    <weighted-embedded-action uid="e6a413a8-76d6-4ddd-b4f0-6f1ed45ccf36"/>
+    <weighted-embedded-action uid="c72cb4f1-d604-45f8-b0f8-c362dbcbf866"/>
+</basic-logical-action-container>

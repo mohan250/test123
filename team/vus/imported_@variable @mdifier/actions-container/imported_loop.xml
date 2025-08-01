@@ -1,0 +1,5 @@
+<loop-action loop="${Extracted_Category_matchNr}" name="imported_loop" uid="afbb0559-523e-4f7e-b016-efedde67eaf3">
+    <embedded-action>1b11eaae-94d3-4b6f-b25a-735e9ac63869</embedded-action>
+    <embedded-action>4e93ec59-ea93-438c-94ee-4b1fb6ec84ad</embedded-action>
+    <embedded-action>303f1e5f-a5ff-465a-851b-ca5ed8ca586d</embedded-action>
+</loop-action>

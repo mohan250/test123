@@ -1,0 +1,17 @@
+<browser-action actionType="BrowserNavigate" isHit="false"
+    name="imported_Navigate to https://sampl...entis.com/101/" uid="c5414bb4-91e5-426f-973e-132ad2effc38">
+    <description>Navigate to an url.
+
+Possible parameters are:&#xd;
+- url (required): URL to visit. The URL must start with an http or https scheme, for example "https://".&#xd;
+- waitForNavigation.url (optional): URL pattern targeted, ex:http://tricentis.com/.* . The URL being navigated to must match this pattern. Enables a wait for page navigation after this action has been executed.&#xd;
+- waitForNavigation.timeout (optional): If applicable, the navigation must occur within the specified timeout in ms. By default the OpenBrowser defaultNavigationTimeout is used. Enables a wait for page navigation after this action has been executed. Maximum value is 200000.&#xd;
+- waitForNavigation.until (optional): Allowed values are : COMMIT, DOMCONTENTLOADED, LOAD, NETWORKIDLE. Default value is LOAD. The navigation will be considered done when the specified state is reached. Enables a wait for page navigation after this action has been executed.&#xd;
+- ignoreErrors (optional): Set this option to true to ignore errors for this action. This is useful for handling conditional actions without having to resort to a "If...Then...Else" or a "Try...Catch" block. Default value is "false".</description>
+    <custom-action-parameter name="url" type="TEXT" value="https://sampleapp.tricentis.com/101/"/>
+    <responsePageFileDescription>team/vus/imported_@real_@browser_demo/%resources%/recorded-responses/res_c5414bb4-91e5-426f-973e-132ad2effc38</responsePageFileDescription>
+    <embedded-action>d81f5910-53d4-4c03-99ca-0b04c19f9f57</embedded-action>
+</browser-action>
+<browser-page-action
+    name="imported_Page response for https://sampl...entis.com/101/"
+    slaProfileEnabled="false" uid="d81f5910-53d4-4c03-99ca-0b04c19f9f57"/>

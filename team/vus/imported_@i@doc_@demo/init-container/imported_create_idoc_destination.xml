@@ -1,0 +1,20 @@
+<custom-action actionType="IdocDestinationType" isHit="false"
+    name="imported_create_idoc_destination" uid="653f84da-7af6-492f-925d-9a3d7e441b0c">
+    <description>Opens a tRFC connection to an SAP server.
+
+Parameters:
+- destination: Unique name for each destination. NeoLoad creates a destination properties file with this name.
+- host: IP address or name of the SAP server.
+- sysnr: SAP system number.
+- client: Client code.
+- user: Login user ID.
+- password: Login password.
+- lang: Language. Default: en.
+- jco.client.&lt;propertyName&gt;: Advanced property to add to the destination properties. Example: jco.client.group=mygroup.</description>
+    <custom-action-parameter name="destination" type="TEXT" value="SAP-S26-SC7-SCM"/>
+    <custom-action-parameter name="host" type="TEXT" value="vwsvtstsap12.tricentis.com"/>
+    <custom-action-parameter name="sysnr" type="TEXT" value="00"/>
+    <custom-action-parameter name="client" type="TEXT" value="800"/>
+    <custom-action-parameter name="user" type="TEXT" value="MSAMPATH"/>
+    <encrypted-custom-action-parameter name="password" type="PASSWORD" value="KYTUol6eJ7j6HzRVaoesHJ6SQqQjQhiwqyTndesMM9RV6tqMSU+szzJSM6Wda3xN$3"/>
+</custom-action>

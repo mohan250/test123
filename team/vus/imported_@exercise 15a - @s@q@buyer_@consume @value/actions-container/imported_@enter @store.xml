@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Enter Store" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="6e666d34-8744-4fb5-9f6a-6ced88032ce7" weightsEnabled="false">
+    <weighted-embedded-action uid="12168886-eec3-4d10-88ac-c4a1fce7a7d6"/>
+</basic-logical-action-container>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Enter Purchase order number" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="3a765026-a02c-422a-a89f-4f291d73e652" weightsEnabled="false">
+    <weighted-embedded-action uid="4dc8e52c-bbbd-4d4e-886a-fc69b77a042c"/>
+</basic-logical-action-container>

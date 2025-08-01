@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Update Quantity" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="7a1cdcff-6c5b-4684-ab32-880a6235c2a4" weightsEnabled="false">
+    <weighted-embedded-action uid="83a68157-be21-473c-99e4-048ad93ff567"/>
+</basic-logical-action-container>

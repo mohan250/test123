@@ -1,0 +1,18 @@
+<custom-action actionType="SQL Connection" isHit="false"
+    name="imported_sql_connection" uid="c7eea661-c8df-487b-9fa5-b91da9592f89">
+    <description>This action connects to a SQL database.
+Possible parameters are:
+- connectionName: (required) the name of the connection to map with other advanced actions.
+- connectionURL: (required) the JDBC connection URL (jdbc:mysql://localhost:3306/).
+- connection.user: (optional) the user name to connect the DB.
+- connection.password: (optional) the password of the user.
+- connection.&lt;propertyName&gt;: (optional) a connection property.
+- driverClassName: (optional) fully qualified name of a custom driver class. NeoLoad embeds drivers for Oracle, MS SQL Server, MySQL and PostgreSQL.
+- autoCommit: (optional) when a statement is completed, the method commit is called on that statement automatically.</description>
+    <custom-action-parameter name="connectionName" type="TEXT" value="myConnection"/>
+    <custom-action-parameter name="connectionURL" type="TEXT" value=""/>
+    <custom-action-parameter name="connection.user" type="TEXT" value=""/>
+    <encrypted-custom-action-parameter name="connection.password"
+        type="PASSWORD" value="p/TZG2WTflZ7rAdbkNwKvls7AQKXFuwK/VRQxV/Kx3JUYJNCge2ZxNTZlmI4dWfx$3"/>
+    <responsePageFileDescription>team/vus/imported_@data@base_@testing/%resources%/recorded-responses/res_87056c2b-5e6f-4e91-a3f1-480c038559b8</responsePageFileDescription>
+</custom-action>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Companion" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="3581423a-6391-4828-ac19-b6c9aae4748c" weightsEnabled="false">
+    <weighted-embedded-action uid="e1978f50-76a0-495f-981c-ac523f411ea7"/>
+</basic-logical-action-container>

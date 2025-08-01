@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/amb/connect" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/9279b2cb-099d-4bd4-93cd-265f3f96b67b.zip"
+    slaProfileEnabled="false" thinkTime="4741"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9279b2cb-099d-4bd4-93cd-265f3f96b67b">
+    <embedded-action>176f2eb6-8834-411e-aa25-bd8dd3706fbd</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json;charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/amb/connect" path="/amb/connect"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/imported_@shipping @costs - @tosca/%resources%/recorded-artifacts/9279b2cb-099d-4bd4-93cd-265f3f96b67b.zip"
+    recordedResponseCode="200" responseSize="218"
+    serverUid="imported_tricentiscsm.service-now.com"
+    slaProfileEnabled="false" uid="176f2eb6-8834-411e-aa25-bd8dd3706fbd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c5252b8b-85e7-4c28-8e77-b5a45bcc7475</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c5252b8b-85e7-4c28-8e77-b5a45bcc7475.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="glide_user_route=glide.57a391004416e3f061520f1b62c59a80; BIGipServerpool_tricentiscsm=0e37fdd7d6c48569f5cdacb31d0ec853; glide_node_id_for_js=7a205fb453ffa5205a5f99fa703baf73a982d8fe819b15242384f00d450e3357; glide_sso_id=11e4ccb0c3301a905b76771d7a01314c; JSESSIONID=278A66B2E8962944C072BDDE5EA90BDE; glide_user_activity=U0N2M18xOnFNWW1NNHBPcWtJbCtNOHY0YkZ6Sy83MnVuUVR0aWJmVDBBbmtBdTJLVkE9OlNwa3JSRDhSVVllNVh2d0hVc2I3UmVlbkY4djVGTzBUUFRKVUFqZTZOTDg9; glide_session_store=0E6CFCAA83389AD0F6CB9B65EEAAD3AE; BAYEUX_BROWSER=9ywvwxk09k7d2u0d; __CJ_g_startTime=%221727244955476%22"/>
+    <header name="Host" value="tricentiscsm.service-now.com"/>
+    <header name="Origin" value="https://tricentiscsm.service-now.com"/>
+    <header name="Referer" value="https://tricentiscsm.service-now.com/now/nav/ui/classic/params/target/u_downloads_list.do%3Fsysparm_first_row%3D1%26sysparm_query%3Dsys_class_name%253du_downloads%255eGOTOname%253e%253dtosca%2Bserver%26sysparm_query_encoded%3Dsys_class_name%253du_downloads%255eGOTOname%253e%253dtosca%2Bserver%26sysparm_view%3D"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;129&quot;, &quot;Not=A?Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;129&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: snow_adc&#xd;
+Date: Wed, 25 Sep 2024 06:43:37 GMT&#xd;
+Content-Type: application/json;charset=UTF-8&#xd;
+Content-Length: 218&#xd;
+Connection: keep-alive&#xd;
+Set-Cookie: BIGipServerpool_tricentiscsm=0e37fdd7d6c48569f5cdacb31d0ec853; httponly; secure; path=/; SameSite=None&#xd;
+Pragma: no-store,no-cache&#xd;
+Cache-Control: no-cache,no-store,must-revalidate,max-age=-1&#xd;
+Expires: 0&#xd;
+X-Content-Type-Options: nosniff&#xd;
+Strict-Transport-Security: max-age=63072000; includeSubDomains</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[[{"id":"74","channel":"/meta/connect","connectionType":"long-polling","clientId":"2fjs1knabg4vqe1exla9un6ctqbxe"}]]]></textPostContent>
+</http-action>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Click Dog" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="38026b06-42d0-4de8-b0f2-89cdfbd73dd0" weightsEnabled="false">
+    <weighted-embedded-action uid="945f3b10-3468-42c7-84d9-fc5b48dc9db4"/>
+</basic-logical-action-container>

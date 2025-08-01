@@ -1,0 +1,5 @@
+<http-server hostname="tri-5cg10762mp" port="8080" ssl="false"
+    uid="imported_tri-5cg10762mp"
+    urlrewriting-argument-name="jsessionid" urlrewriting-enabled="true"
+    urlrewriting-path-extension="true"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

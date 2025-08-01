@@ -1,0 +1,1 @@
+<variable-random-number max-value="5" min-value="1" name="imported_RndInt" order="1" policy="1" random-seed="false" range="2" uid="0a51f9d2-c7c9-4a6d-b991-cb50122a6733" whenOutOfValues="CYCLE_VALUES"/>

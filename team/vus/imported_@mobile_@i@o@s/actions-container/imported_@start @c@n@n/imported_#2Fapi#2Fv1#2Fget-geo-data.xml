@@ -1,0 +1,56 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/api/v1/get-geo-data"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/eae39e31-d0df-4730-8373-75d2a612613f.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="eae39e31-d0df-4730-8373-75d2a612613f">
+    <embedded-action>a2ab4614-60ca-40d7-a70b-3c3f2092b560</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/api/v1/get-geo-data"
+    path="/api/v1/get-geo-data" postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/eae39e31-d0df-4730-8373-75d2a612613f.zip"
+    recordedResponseCode="200" responseSize="150"
+    serverUid="imported_content.api.cnn.com" slaProfileEnabled="false"
+    uid="a2ab4614-60ca-40d7-a70b-3c3f2092b560" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1d885e6f-0e26-4257-8c8f-b0389ff06a78</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1d885e6f-0e26-4257-8c8f-b0389ff06a78.txt</requestContentFileDescription>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN,en-GB;q=0.9,en;q=0.8"/>
+    <header name="cookie" value="countryCode=IN; geoData=wakad|MH|411057|IN|AS|530|broadband|18.590|73.730|-1; stateCode=MH; s_ecid=MCMID%7C42800885309200591226353008048359080596; FastAB=0=0372,1=5895,2=5465,3=9049,4=5533,5=9329,6=0950,7=7374,8=1961,9=7421,10=4980,11=1101,12=9128,13=4591,14=1767,15=0932,16=3983,17=9957,18=8017,19=2274"/>
+    <header name="x-client-id" value="0aHfjOi3Y2678t45j7SjlfgD"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="CNN/10542719 CFNetwork/1496.0.7 Darwin/23.5.0"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+server: Varnish&#xd;
+retry-after: 0&#xd;
+content-type: application/json; charset=utf-8&#xd;
+cache-control: max-age=60&#xd;
+accept-ranges: bytes&#xd;
+date: Wed, 04 Sep 2024 07:11:44 GMT&#xd;
+via: 1.1 varnish&#xd;
+set-cookie: countryCode=IN; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: stateCode=MH; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000|0; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+cnn-request-origin: international&#xd;
+cnn-privacy-region: default&#xd;
+cnn-client-country: IN&#xd;
+cnn-client-state: MH&#xd;
+cnn-geo-region: india&#xd;
+fastly-client-ip: 165.225.120.192&#xd;
+x-served-by: cache-bom4748-BOM&#xd;
+x-cache: HIT&#xd;
+x-cache-hits: 0&#xd;
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400&#xd;
+content-length: 150</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,21 @@
+<custom-action actionType="KafkaReceiveAction" isHit="true"
+    name="imported_receive_messages" uid="bc725f03-589d-409e-9c9f-c4bc6980c076">
+    <description>Receive Kafka Messages from a topic.
+More information on all the available parameters can be found here : https://kafka.apache.org/0102/documentation/#consumerconfigs
+
+Possible parameters are:&#xd;
+- bootstrap.servers (required): A list of host/port pairs to use for establishing the initial connection to the Kafka cluster such as host1:port1,host2:port2.&#xd;
+- topic (required): The topic the record will be consumed from.&#xd;
+- group.id (optional): A unique string that identifies the consumer group this consumer belongs to. This property is required if the consumer uses either the group management functionality by using subscribe(topic) or the Kafka-based offset management strategy.&#xd;
+- timeout (required): The maximum time to block in ms. Default value is "15000".&#xd;
+- key.deserializer (optional): Deserializer class for key that implements the Deserializer interface. Default value is "org.apache.kafka.common.serialization.StringDeserializer".&#xd;
+- value.deserializer (optional): Deserializer class for value that implements the Deserializer interface. Default value is "org.apache.kafka.common.serialization.StringDeserializer".&#xd;
+- max.poll.records (optional): The maximum number of messages returned in a single call.&#xd;
+- failOnTimeout (optional): If set to true, the action fails when timeout is reached. Default value is "true".&#xd;
+- close (optional): Whether to close the consumer or not after sending the message. If not closed, the consumer will be kept in the context for the next execution. Default value is "false".</description>
+    <custom-action-parameter name="bootstrap.servers" type="TEXT" value=""/>
+    <custom-action-parameter name="topic" type="TEXT" value=""/>
+    <custom-action-parameter name="group.id" type="TEXT" value=""/>
+    <custom-action-parameter name="timeout" type="TEXT" value="15000"/>
+    <responsePageFileDescription>team/vus/imported_@kafka/%resources%/recorded-responses/res_2d2221b2-8575-434c-a286-dfcb4d1a4903</responsePageFileDescription>
+</custom-action>

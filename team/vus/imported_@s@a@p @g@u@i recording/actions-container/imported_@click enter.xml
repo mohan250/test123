@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="imported_Click enter" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="52bb5694-3952-4c50-8255-22a63a0f3608" weightsEnabled="false">
+    <weighted-embedded-action uid="b186c755-b988-496e-957e-199f2e5e01a1"/>
+    <weighted-embedded-action uid="b3eca3be-d732-4804-a5eb-e32e3e8b1cf2"/>
+    <weighted-embedded-action uid="8704b918-dc82-4eaf-bb1a-56540025d3ce"/>
+    <weighted-embedded-action uid="79c276c4-82a8-4f13-b6aa-a9ec5f709ab2"/>
+</basic-logical-action-container>

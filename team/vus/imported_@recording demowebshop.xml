@@ -1,0 +1,40 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="true"
+    slaProfileName="Profile" type="LEGACY" uid="imported_Recording demowebshop">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="f8b9cc75-d1b4-4eff-a662-3f9b1d6db364"/>
+        <weighted-embedded-action uid="56f6183b-5cbe-4d9b-a776-7cc0ed0e4693"/>
+        <weighted-embedded-action uid="7eac96e7-4b52-4427-988e-86087eb825ad"/>
+        <weighted-embedded-action uid="904effa5-8985-4766-bbe3-e7bbc292e2ea"/>
+        <weighted-embedded-action uid="c7c84e4b-81ac-4be6-a73a-0f736e4640fc"/>
+        <weighted-embedded-action uid="dbf58422-486d-4f48-a3b0-d4e09f3f4579"/>
+        <weighted-embedded-action uid="d8eb59d3-07b2-4b13-8f3a-fc03191e3e05"/>
+        <weighted-embedded-action uid="16070e3a-6205-4d38-9286-a3c8422827eb"/>
+        <weighted-embedded-action uid="8bbd7f08-a1f5-4577-9d13-391a7ec1bfa3"/>
+        <weighted-embedded-action uid="2d5ff09d-bd3b-43df-ad28-33189bdbbce2"/>
+        <weighted-embedded-action uid="cadb5916-7cb6-44f0-a7ce-053f7da21c1a"/>
+        <weighted-embedded-action uid="89970bd0-3d5e-4539-bf48-97eb5528c7e6"/>
+        <weighted-embedded-action uid="ef183eb2-dab0-4116-b6e2-2828b932ab71"/>
+        <weighted-embedded-action uid="477db321-531b-490a-8e65-1d1d83d98c51"/>
+        <weighted-embedded-action uid="2791679d-c1cf-4c08-8cf0-4fd62d5bdb2d"/>
+        <weighted-embedded-action uid="6adccde7-cea5-43eb-abd1-5f6c119cf216"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <extraJsonData><![CDATA[{}]]></extraJsonData>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="0"
+        thinktimeRangeValue="0" thinktimeValue="5000"/>
+</virtual-user>

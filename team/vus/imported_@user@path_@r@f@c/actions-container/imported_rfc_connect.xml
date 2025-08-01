@@ -1,0 +1,20 @@
+<custom-action actionType="RfcConnectType" isHit="false"
+    name="imported_rfc_connect" uid="97d753b0-472f-4b37-9707-db79febbce08">
+    <description>Opens an RFC connection to an SAP server.
+
+Parameters:
+- destination: Unique name for each destination. NeoLoad creates a destination properties file with this name.
+- host: IP address or name of the SAP server.
+- sysnr: SAP system number.
+- client: Client code.
+- user: Login user ID.
+- password: Login password.
+- lang: Language. Default: en.
+- jco.client.&lt;propertyName&gt;: Advanced property to add to the destination properties. Example: jco.client.group=mygroup.</description>
+    <custom-action-parameter name="destination" type="TEXT" value="rfcDestination1"/>
+    <custom-action-parameter name="host" type="TEXT" value="127.0.0.1"/>
+    <custom-action-parameter name="sysnr" type="TEXT" value="00"/>
+    <custom-action-parameter name="client" type="TEXT" value="100"/>
+    <custom-action-parameter name="user" type="TEXT" value="userlogin"/>
+    <encrypted-custom-action-parameter name="password" type="PASSWORD" value="V6keqLZyqC2BCHTsmub60CWxzvb2ae7EWCqs5E7N7y7kfAa2s8kbTncfmvhYWfau$3"/>
+</custom-action>

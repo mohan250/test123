@@ -1,0 +1,123 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/jpetstore/shop/signon.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@variable @mdifier/%resources%/recorded-artifacts/8c530567-ce85-46f9-bb78-9fd46612aca9.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8c530567-ce85-46f9-bb78-9fd46612aca9">
+    <embedded-action>559440c3-c817-4c69-b3d8-24aed6424192</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_0f00f187-022c-43db-ab09-5fb2de2ccf97.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/jpetstore/shop/signon.shtml"
+    path="/jpetstore/shop/signon.shtml" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/imported_@variable @mdifier/%resources%/recorded-artifacts/8c530567-ce85-46f9-bb78-9fd46612aca9.zip"
+    recordedResponseCode="200"
+    refererUid="0b95ac01-e503-4720-86c7-8fc28068eb40"
+    responseSize="6530" serverUid="imported_tri-5cg10762mp"
+    slaProfileEnabled="false" uid="559440c3-c817-4c69-b3d8-24aed6424192" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[dXNlcm5hbWU9ajJlZSZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF8yfSZ4PTQwJnk9Ng==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_5da6b45e-17f4-4831-8698-8ad0b6305118.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_5da6b45e-17f4-4831-8698-8ad0b6305118.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Extracted_ID"
+        refererUid="79d42771-255e-43ba-b5e0-d5a7169d9bd8"
+        regExp="&amp;id=(.*?)&quot;>" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="&amp;id="
+        template="$1$" templateAdv="$1$"
+        uid="de4010da-1b33-43f7-97e2-dc083ca86df4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>&lt;img border=" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="5" extractTypeAdv="0"
+        extractTypeSimple="5" matchNumber="-1" matchNumberAdv="1"
+        matchNumberSimple="-1" name="Extracted_Category"
+        refererUid="4d8f74e6-c326-4c38-834e-56f711e72924"
+        regExp="categoryId=(.*?)&quot;>&lt;img border=" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="categoryId="
+        template="$1$" templateAdv="$1$"
+        uid="a0cc4d54-1e57-45cd-9313-881c69f9f292" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>&lt;img border=" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="5" extractTypeAdv="0"
+        extractTypeSimple="5" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Extracted_productId"
+        refererUid="2c662dae-cf19-4b9b-9377-8b7c53bf8573"
+        regExp="categoryId=(.*?)&quot;>&lt;img border=" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="categoryId="
+        template="$1$" templateAdv="$1$"
+        uid="9807b516-ff08-4b17-bfc3-06ec5dc3ffb1" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>&lt;img border=" extractFromVarName=""
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="5" extractTypeAdv="0" extractTypeSimple="5"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="Extracted_itemId"
+        refererUid="2c662dae-cf19-4b9b-9377-8b7c53bf8573"
+        regExp="categoryId=(.*?)&quot;>&lt;img border=" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="categoryId="
+        template="$1$" templateAdv="$1$"
+        uid="f1bf5be9-61cf-4495-a9be-78f630fd1b80" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;>&lt;img border=" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="5" extractTypeAdv="0"
+        extractTypeSimple="5" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Extracted_addtocart"
+        refererUid="2c662dae-cf19-4b9b-9377-8b7c53bf8573"
+        regExp="categoryId=(.*?)&quot;>&lt;img border=" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="categoryId="
+        template="$1$" templateAdv="$1$"
+        uid="a43f1252-cf62-4662-b2fd-35a4ad1fa8f4" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="username"
+        recordRawValue="j2ee" separator="="
+        value="${imported_Users.Username}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="password"
+        recordRawValue="${AutoPassword_2}" separator="="
+        value="${imported_Users.Password}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="x"
+        recordRawValue="40" separator="=" value="40" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="y"
+        recordRawValue="6" separator="=" value="6" valueMode="USE_VALUE"/>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cache-Control" value="max-age=0"/>
+    <header name="Content-Type" value="application/x-www-form-urlencoded"/>
+    <header name="Cookie" value="JSESSIONID=8EEFE409AD1E663E5252EB624ED5F52B"/>
+    <header name="Host" value="tri-5cg10762mp:8080"/>
+    <header name="Origin" value="http://tri-5cg10762mp:8080"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://tri-5cg10762mp:8080/jpetstore/shop/signonForm.shtml"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=ISO-8859-1&#xd;
+Content-Length: 6530&#xd;
+Date: Tue, 25 Jun 2024 09:07:22 GMT</responseHeaders>
+    <record-html-infos extractorName="accountBean"
+        extractorOccurence="2" extractorRegExp="false" htmlType="2"/>
+</http-action>

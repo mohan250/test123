@@ -1,0 +1,135 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/mobile/v2/videos/tv-channels"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/aad0d3bf-149e-429c-a059-6393aca7bb22.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="aad0d3bf-149e-429c-a059-6393aca7bb22">
+    <embedded-action>26b1d91a-9a05-4bca-a6f0-5deb00c43720</embedded-action>
+    <embedded-action>b614a3fc-47da-41d2-bac6-a86d4dec508a</embedded-action>
+    <embedded-action>3ff8310e-fc57-478e-bd16-5689c97c5fcc</embedded-action>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/mobile/v2/videos/tv-channels"
+    path="/mobile/v2/videos/tv-channels" postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/aad0d3bf-149e-429c-a059-6393aca7bb22.zip"
+    recordedResponseCode="302" responseSize="0"
+    serverUid="imported_www.cnn.com" slaProfileEnabled="false"
+    uid="26b1d91a-9a05-4bca-a6f0-5deb00c43720" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8cb17795-6858-4139-9222-2edfbceb2766</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8cb17795-6858-4139-9222-2edfbceb2766.txt</requestContentFileDescription>
+    <header name="x-content-hub-agent" value="mobile-app"/>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN,en-GB;q=0.9,en;q=0.8"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="CNN/10542719 CFNetwork/1496.0.7 Darwin/23.5.0"/>
+    <header name="x-content-hub-region" value="international"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+server: Varnish&#xd;
+retry-after: 0&#xd;
+cache-control: public, max-age=60&#xd;
+location: https://edition.cnn.com/mobile/v2/videos/tv-channels&#xd;
+accept-ranges: bytes&#xd;
+date: Wed, 04 Sep 2024 07:12:53 GMT&#xd;
+via: 1.1 varnish&#xd;
+set-cookie: SecGpc=0; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: countryCode=IN; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: stateCode=MH; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000|0; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+x-served-by: cache-bom4735-BOM&#xd;
+x-cache: HIT&#xd;
+x-cache-hits: 0&#xd;
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400&#xd;
+Content-Length: 0</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="2"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/mobile/v2/videos/tv-channels"
+    path="/mobile/v2/videos/tv-channels" postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/aad0d3bf-149e-429c-a059-6393aca7bb22.zip"
+    recordedResponseCode="200"
+    refererUid="26b1d91a-9a05-4bca-a6f0-5deb00c43720"
+    responseSize="208077" serverUid="imported_edition.cnn.com"
+    slaProfileEnabled="false" uid="b614a3fc-47da-41d2-bac6-a86d4dec508a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_7165f1f3-7803-4d66-89be-90b979e56c38</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_7165f1f3-7803-4d66-89be-90b979e56c38.txt</requestContentFileDescription>
+    <header name="x-content-hub-agent" value="mobile-app"/>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN,en-GB;q=0.9,en;q=0.8"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="CNN/10542719 CFNetwork/1496.0.7 Darwin/23.5.0"/>
+    <header name="x-content-hub-region" value="international"/>
+    <header name="accept" value="*/*"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+via: 1.1 varnish, 1.1 varnish, 1.1 varnish&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-content-type-options: nosniff&#xd;
+cache-control: max-age=60&#xd;
+content-encoding: gzip&#xd;
+x-content-hub: build-env=prod; unique-deployment-key=rn0827c5; build-version=v5.12.6-0-g9ce531758b; build-commit-hash=9ce531758b160e463f29200488319187bed21f63&#xd;
+access-control-allow-origin: *&#xd;
+x-last-modified: Wed, 04 Sep 2024 06:01:10 GMT&#xd;
+content-type: application/json; charset=utf-8&#xd;
+content-security-policy: default-src 'self' blob: https://*.cnn.com:* http://*.cnn.com:* *.cnn.io:* *.cnn.net:* *.turner.com:* *.turner.io:* *.ugdturner.com:* courageousstudio.com *.vgtf.net:*; script-src 'unsafe-eval' 'unsafe-inline' 'self' *; style-src 'unsafe-inline' 'self' blob: *; child-src 'self' blob: *; frame-src 'self' *; object-src 'self' *; img-src 'self' data: blob: *; media-src 'self' data: blob: *; font-src 'self' data: *; connect-src 'self' data: *; frame-ancestors 'self' https://*.cnn.com:* http://*.cnn.com https://*.cnn.io:* http://*.cnn.io:* *.turner.com:* courageousstudio.com;&#xd;
+accept-ranges: bytes&#xd;
+age: 1577&#xd;
+date: Wed, 04 Sep 2024 07:12:54 GMT&#xd;
+set-cookie: SecGpc=0; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: countryCode=IN; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: stateCode=MH; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000|0; Domain=.cnn.com; Path=/; SameSite=None; Secure&#xd;
+set-cookie: FastAB=0=1808,1=5059,2=4963,3=4096,4=1056,5=9308,6=0584,7=0244,8=3365,9=9083,10=7297,11=5756,12=2111,13=3158,14=6803,15=6663,16=2722,17=2245,18=8097,19=6670; Domain=.cnn.com; Path=/; Expires=Thu, 04 Sep 2025 07:12:54 GMT; SameSite=Lax&#xd;
+x-served-by: cache-iad-kiad7000035-IAD, cache-iad-kiad7000035-IAD, cache-bom4745-BOM&#xd;
+x-cache: MISS, HIT, HIT&#xd;
+x-cache-hits: 0, 3, 0&#xd;
+x-timer: S1725433975.934107,VS0,VE1&#xd;
+vary: Accept-Encoding, Accept-Language,Origin&#xd;
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400&#xd;
+content-length: 24299</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="imported_/com.snowplowanalytics.snowplow/tp2"
+    path="/com.snowplowanalytics.snowplow/tp2" postType="4"
+    recordedArtifactZipFileName="team/vus/imported_@mobile_@i@o@s/%resources%/recorded-artifacts/aad0d3bf-149e-429c-a059-6393aca7bb22.zip"
+    recordedResponseCode="200" responseSize="2"
+    serverUid="imported_collector.cdp.cnn.com" slaProfileEnabled="false"
+    uid="3ff8310e-fc57-478e-bd16-5689c97c5fcc" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6f15dfd2-0bd9-4cb9-85d2-89bd7baaa176</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6f15dfd2-0bd9-4cb9-85d2-89bd7baaa176.txt</requestContentFileDescription>
+    <header name="adrum" value="isAjax:true"/>
+    <header name="accept-language" value="en-IN,en-GB;q=0.9,en;q=0.8"/>
+    <header name="cookie" value="sp=8a05d84c-6eea-4702-b153-82741e30c6ad; countryCode=IN; geoData=navimumbai|MH|400708|IN|AS|530|broadband|19.170|73.000; stateCode=MH; s_ecid=MCMID%7C42800885309200591226353008048359080596; FastAB=0=0372,1=5895,2=5465,3=9049,4=5533,5=9329,6=0950,7=7374,8=1961,9=7421,10=4980,11=1101,12=9128,13=4591,14=1767,15=0932,16=3983,17=9957,18=8017,19=2274"/>
+    <header name="adrum_1" value="isMobile:true"/>
+    <header name="content-type" value="application/json; charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="CNN/10542719 CFNetwork/1496.0.7 Darwin/23.5.0"/>
+    <header name="accept" value="text/html, application/x-www-form-urlencoded, text/plain, image/gif"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Wed, 04 Sep 2024 07:12:55 GMT&#xd;
+content-type: text/plain; charset=UTF-8&#xd;
+content-length: 2&#xd;
+set-cookie: sp=8a05d84c-6eea-4702-b153-82741e30c6ad; Expires=Thu, 04 Sep 2025 07:12:55 GMT; Path=/; SameSite=Strict&#xd;
+p3p: policyref="/w3c/p3p.xml", CP="NOI DSP COR NID PSA OUR IND COM NAV STA"&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-credentials: true&#xd;
+server: akka-http/10.2.7</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"schema":"iglu:com.snowplowanalytics.snowplow\/payload_data\/jsonschema\/1-0-4","data":[{"ue_pr":"{\"schema\":\"iglu:com.snowplowanalytics.snowplow\\\/unstruct_event\\\/jsonschema\\\/1-0-0\",\"data\":{\"schema\":\"iglu:com.cnn\\\/Pageview\\\/jsonschema\\\/1-1-0\",\"data\":{\"traits\":{\"userprivacystate\":\"denied\",\"pageTags\":\"\",\"publishedDate\":\"\",\"component_id\":\"watch\",\"loadTime\":0,\"experience_type\":\"cnn_core\",\"experiment_id\":null,\"pageType\":\"\",\"vertical\":null,\"component_type\":\"vertical\",\"variant_id\":null,\"notifications\":\"off\",\"enabled_features\":[],\"pageStellarId\":\"\",\"cnn_uid\":null},\"__techPlatform\":\"cnn-ios\",\"hypatiaId\":\"watch:watch\",\"__viewId\":\"3F000E76-A6B6-442F-9301-A9C948C86DEF\",\"versions\":{\"app_version\":\"24.17.10542719\"},\"__loginState\":\"false\",\"__sessionId\":\"365192A8-DE0B-4C3B-A964-08614C06F4D8\",\"__geoData\":{\"country\":\"\",\"continent\":\"\",\"connectionSpeed\":\"\",\"state\":\"\",\"city\":\"\",\"gmtOffset\":\"5\",\"zip\":\"\"},\"canonicalUrl\":\"watch:watch\"}}}","vp":"750x1334","eid":"D004D106-3131-442D-93C7-8D7F47E03A87","p":"mob","co":"{\"schema\":\"iglu:com.snowplowanalytics.snowplow\\\/contexts\\\/jsonschema\\\/1-0-1\",\"data\":[{\"schema\":\"iglu:com.cnn\\\/user_context\\\/jsonschema\\\/1-2-0\",\"data\":{\"account_type\":\"anonymous\",\"is_logged_in\":false,\"external_ids\":[{\"value\":\"24959280534884019377802254273145269989\",\"type\":\"adobe_ecid\"},{\"type\":\"zaid\",\"value\":\"C0260B92-F877-41B0-AD57-78A58DBBDEC1\"}]}},{\"schema\":\"iglu:com.cnn\\\/global_context\\\/jsonschema\\\/1-3-0\",\"data\":{\"versions\":{\"app_version\":\"24.17.10542719\"},\"tech_platform\":\"cnn-ios\",\"view_id\":\"3F000E76-A6B6-442F-9301-A9C948C86DEF\",\"session_id\":\"365192A8-DE0B-4C3B-A964-08614C06F4D8\"}},{\"schema\":\"iglu:com.cnn\\\/content_context\\\/jsonschema\\\/1-3-0\",\"data\":{\"hypatia_id\":null,\"canonical_url\":\"https:\\\/\\\/www.cnn.com\",\"vertical\":\"cnn\",\"template_type\":null,\"page_stellar_id\":\"L19wYWdlcy9jbGdiazkxdWUwMDAwMjZwNzZpdnBoaHAy\",\"page_type\":\"section\",\"cms_id\":null,\"source_id\":null}},{\"schema\":\"iglu:com.snowplowanalytics.snowplow\\\/mobile_context\\\/jsonschema\\\/1-0-1\",\"data\":{\"osType\":\"ios\",\"osVersion\":\"17.5.1\",\"appleIdfv\":\"83A6898E-6DC0-4478-B8C5-A37F3061EF6B\",\"carrier\":\"--\",\"deviceManufacturer\":\"Apple Inc.\",\"networkType\":\"wifi\",\"deviceModel\":\"iPhone12,8\"}},{\"schema\":\"iglu:com.snowplowanalytics.mobile\\\/application\\\/jsonschema\\\/1-0-0\",\"data\":{\"build\":\"10542719\",\"version\":\"24.17\"}},{\"schema\":\"iglu:com.snowplowanalytics.snowplow\\\/client_session\\\/jsonschema\\\/1-0-1\",\"data\":{\"previousSessionId\":\"e5579518-90de-4fa6-ba63-c92d9cbdb643\",\"storageMechanism\":\"LOCAL_STORAGE\",\"sessionId\":\"93b7e06c-42e4-4070-9c2c-0318eeebfa47\",\"userId\":\"c5d1da6e-9149-4f4c-9c4f-11105192580f\",\"firstEventId\":\"6F4F72A6-9D71-45B8-B42A-E663A5AA7BDC\",\"sessionIndex\":138}}]}","tz":"Asia\/Kolkata","stm":"1725433975252","dtm":"1725433975248","tv":"ios-2.1.1","tna":"appTracker","e":"ue","lang":"en-IN","duid":"C0260B92-F877-41B0-AD57-78A58DBBDEC1","aid":"cnn-ios","res":"750x1334"}]}]]></textPostContent>
+</http-action>

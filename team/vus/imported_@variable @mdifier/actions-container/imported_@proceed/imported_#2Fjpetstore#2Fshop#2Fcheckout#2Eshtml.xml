@@ -1,0 +1,75 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="imported_/jpetstore/shop/checkout.shtml"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/imported_@variable @mdifier/%resources%/recorded-artifacts/5ac02c38-2073-46a2-bc04-347e68281e33.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5ac02c38-2073-46a2-bc04-347e68281e33">
+    <embedded-action>0e33d666-8c68-4701-b328-f78965e23598</embedded-action>
+    <embedded-action>b3e1a3f2-f023-45e5-8d81-6f9cacb30731</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e1430681-5e4f-4341-98f8-2e9a12cac4fd.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/jpetstore/shop/checkout.shtml"
+    path="/jpetstore/shop/checkout.shtml" postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@variable @mdifier/%resources%/recorded-artifacts/5ac02c38-2073-46a2-bc04-347e68281e33.zip"
+    recordedResponseCode="200" responseSize="4203"
+    serverUid="imported_tri-5cg10762mp" slaProfileEnabled="false"
+    uid="0e33d666-8c68-4701-b328-f78965e23598" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c05c1aa0-3359-4cf3-ad79-8140d2ad1f4d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c05c1aa0-3359-4cf3-ad79-8140d2ad1f4d.txt</requestContentFileDescription>
+    <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="JSESSIONID=8EEFE409AD1E663E5252EB624ED5F52B"/>
+    <header name="Host" value="tri-5cg10762mp:8080"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://tri-5cg10762mp:8080/jpetstore/shop/addItemToCart.shtml?workingItemId=EST-21"/>
+    <header name="Upgrade-Insecure-Requests" value="1"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+Content-Type: text/html;charset=ISO-8859-1&#xd;
+Content-Length: 4203&#xd;
+Date: Tue, 25 Jun 2024 09:07:59 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="image/gif"
+    eTag="W/&quot;1275-1717668034000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 06 Jun 2024 10:00:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="imported_/jpetstore/images/button_continue.gif"
+    path="/jpetstore/images/button_continue.gif" postType="6"
+    recordedArtifactZipFileName="team/vus/imported_@variable @mdifier/%resources%/recorded-artifacts/5ac02c38-2073-46a2-bc04-347e68281e33.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="imported_tri-5cg10762mp" slaProfileEnabled="false"
+    uid="b3e1a3f2-f023-45e5-8d81-6f9cacb30731" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2f2751e3-0385-4f65-90a6-6e36b97f9952.gif</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6bfbd3c4-5413-4258-bc75-886ca5c21580.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="JSESSIONID=8EEFE409AD1E663E5252EB624ED5F52B"/>
+    <header name="Host" value="tri-5cg10762mp:8080"/>
+    <header name="If-Modified-Since" value="Thu, 06 Jun 2024 10:00:34 GMT"/>
+    <header name="If-None-Match" value="W/&quot;1275-1717668034938&quot;"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://tri-5cg10762mp:8080/jpetstore/shop/checkout.shtml"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Server: Apache-Coyote/1.1&#xd;
+ETag: W/"1275-1717668034938"&#xd;
+Last-Modified: Thu, 06 Jun 2024 10:00:34 GMT&#xd;
+Content-Type: image/gif&#xd;
+Content-Length: 1275&#xd;
+Date: Tue, 25 Jun 2024 09:07:59 GMT</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
